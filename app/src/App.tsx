@@ -32,7 +32,7 @@ export function App() {
   }
   if (status !== 'ready' || !graph) {
     return (
-      <div className="av-center">
+      <div className="av-center" data-testid="app-error">
         <b>Could not load graph.json</b>
         <pre className="mono" style={{ fontSize: 12, color: '#8a8a93', maxWidth: 520, whiteSpace: 'pre-wrap' }}>
           {error}
@@ -45,26 +45,26 @@ export function App() {
   }
 
   return (
-    <div className="av-app">
+    <div className="av-app" data-testid="app-shell">
       <TopBar graph={graph} />
       <div className="av-main">
-        <aside className="av-col av-col-left">
+        <aside className="av-col av-col-left" data-testid="pane-structure">
           <div className="av-pane-head">Structure</div>
           <div className="av-scroll">
             <TreePane />
           </div>
         </aside>
-        <section className="av-col av-col-center">
+        <section className="av-col av-col-center" data-testid="pane-graph">
           <GraphPane vm={vm} />
         </section>
-        <aside className="av-col av-col-right">
+        <aside className="av-col av-col-right" data-testid="pane-inspector">
           <div className="av-pane-head">Inspector</div>
           <div className="av-scroll">
             <DetailPane />
           </div>
         </aside>
       </div>
-      <div className="av-bottom">
+      <div className="av-bottom" data-testid="pane-diagram">
         <DiagramPane vm={vm} />
       </div>
     </div>
