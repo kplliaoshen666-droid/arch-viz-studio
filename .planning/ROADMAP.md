@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: CLI Extraction** - `arch-viz scan <repo>` runs CodeGraph, reads its SQLite DB, normalizes, and emits `graph.json` (highest-density security)
 - [x] **Phase 3: Viewer Core** - 4-pane Vite/React/React Flow app renders the graph with anti-hairball clustering/collapse/filter/focus designed in
 - [x] **Phase 4: Export & Handoff Bundle** - Deterministic SVG, ARCHITECTURE.md, self-contained HTML viewer, and optional PNG (XSS-critical)
-- [ ] **Phase 5: Reusability + Dogfood** - Project-agnostic reuse, the license-allowlist ship gate, and ship-to-validate by visualizing self + one mature repo
+- [x] **Phase 5: Reusability + Dogfood** - Project-agnostic reuse, the license-allowlist ship gate, and ship-to-validate by visualizing self + one mature repo
 
 ## Phase Details
 
@@ -92,7 +92,7 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 05-01: TBD during plan-phase
+- [x] 05-01: project-agnostic reuse (CodeGraph target-first→global, output into target's docs/architecture/) · dogfooded on self (151 nodes · 257 edges · 31 clusters, committed as the demo) + fixture repo · SEC-01 license-allowlist gate (178 deps, 100% permissive) · CI workflow · README
 
 ## Progress
 
@@ -105,4 +105,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. CLI Extraction | 1/1 | Complete | 2026-05-31 |
 | 3. Viewer Core | 1/1 | Complete | 2026-05-31 |
 | 4. Export & Handoff Bundle | 1/1 | Complete | 2026-05-31 |
-| 5. Reusability + Dogfood | 0/TBD | Not started | - |
+| 5. Reusability + Dogfood | 1/1 | Complete | 2026-05-31 |

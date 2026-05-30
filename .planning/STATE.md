@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-05-31)
 
 **Core value:** Point at any repo → get a high-quality, committable architecture picture a human can present and an AI agent can read+update — with zero non-permissive licenses in the client-facing chain.
-**Current focus:** Phase 5 — Reusability + Dogfood + license-allowlist ship gate
+**Current focus:** v1 build COMPLETE (24/24 reqs) — remaining: Codex cross-review + runnable cases
 
 ## Current Position
 
-Phase: 5 of 5 (Reusability + Dogfood)
-Plan: Phases 1-4 complete (4/4)
-Status: Phase 4 shipped — `arch-viz scan` now emits the full committable bundle (graph.json + architecture.svg + ARCHITECTURE.md + viz/index.html, 18KB self-contained), all byte-identical on re-scan; 57 tests GREEN incl. adversarial XSS escaping. NOTE: in-browser render + PNG export not screenshotted (Chrome ext not connected) — verify via `npm run dev:app`.
-Last activity: 2026-05-31 — Phase 4 Export & Handoff Bundle committed (EXPORT-01..05)
+Phase: 5 of 5 complete (all phases shipped)
+Plan: Phases 1-5 complete (5/5)
+Status: v1 DONE — 24/24 requirements satisfied; 57 tests GREEN; license gate PASS (178 deps permissive); dogfooded on self (151 nodes, committed bundle in docs/architecture/). NOTE: in-browser render + PNG export not screenshotted (Chrome ext not connected) — verify via `npm run dev:app` or open docs/architecture/viz/index.html. NEXT: Codex cross-review + runnable end-to-end cases (user request).
+Last activity: 2026-05-31 — Phase 5 Reusability + Dogfood committed (REUSE-01/02, SEC-01)
 
-Progress: [████████░░] 80%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 

@@ -97,9 +97,9 @@
 | EXPORT-03 | Phase 4 | Done |
 | EXPORT-04 | Phase 4 | Done |
 | EXPORT-05 | Phase 4 | Done (browser-verify pending) |
-| REUSE-01 | Phase 5 | Pending |
-| REUSE-02 | Phase 5 | Pending |
-| SEC-01 | Phase 5 | Pending |
+| REUSE-01 | Phase 5 | Done |
+| REUSE-02 | Phase 5 | Done |
+| SEC-01 | Phase 5 | Done |
 
 **Cross-cutting note:** Security & supply-chain (SEC-01, SEC-02, and the CLI-05 subprocess/path discipline) is enforced from first install but each SEC requirement is assigned to exactly one phase for ownership: SEC-02 (lockfile + `npm audit`) → Phase 2 (first runtime install); SEC-01 (license-allowlist on the shipped chain) → Phase 5 (the ship-to-validate gate). The escaping/XSS boundary is owned by Phase 3 (render) and adversarially gated by EXPORT-04 in Phase 4.
 
