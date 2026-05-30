@@ -74,17 +74,42 @@
 
 ## Traceability
 
-Populated during roadmap creation.
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (filled by roadmapper) | | |
+| SCHEMA-01 | Phase 1 | Pending |
+| SCHEMA-02 | Phase 1 | Pending |
+| SCHEMA-03 | Phase 1 | Pending |
+| SCHEMA-04 | Phase 1 | Pending |
+| CLI-01 | Phase 2 | Pending |
+| CLI-02 | Phase 2 | Pending |
+| CLI-03 | Phase 2 | Pending |
+| CLI-04 | Phase 2 | Pending |
+| CLI-05 | Phase 2 | Pending |
+| SEC-02 | Phase 2 | Pending |
+| VIEW-01 | Phase 3 | Pending |
+| VIEW-02 | Phase 3 | Pending |
+| VIEW-03 | Phase 3 | Pending |
+| VIEW-04 | Phase 3 | Pending |
+| VIEW-05 | Phase 3 | Pending |
+| VIEW-06 | Phase 3 | Pending |
+| EXPORT-01 | Phase 4 | Pending |
+| EXPORT-02 | Phase 4 | Pending |
+| EXPORT-03 | Phase 4 | Pending |
+| EXPORT-04 | Phase 4 | Pending |
+| EXPORT-05 | Phase 4 | Pending |
+| REUSE-01 | Phase 5 | Pending |
+| REUSE-02 | Phase 5 | Pending |
+| SEC-01 | Phase 5 | Pending |
+
+**Cross-cutting note:** Security & supply-chain (SEC-01, SEC-02, and the CLI-05 subprocess/path discipline) is enforced from first install but each SEC requirement is assigned to exactly one phase for ownership: SEC-02 (lockfile + `npm audit`) → Phase 2 (first runtime install); SEC-01 (license-allowlist on the shipped chain) → Phase 5 (the ship-to-validate gate). The escaping/XSS boundary is owned by Phase 3 (render) and adversarially gated by EXPORT-04 in Phase 4.
 
 **Coverage:**
 - v1 requirements: 24 total
-- Mapped to phases: (roadmapper)
-- Unmapped: (roadmapper)
+- Mapped to phases: 24
+- Unmapped: 0
+
+v2 requirements (AI-01, AI-02, SCALE-01) are intentionally deferred and not mapped to v1 phases.
 
 ---
 *Requirements defined: 2026-05-31*
-*Last updated: 2026-05-31 after initialization*
+*Last updated: 2026-05-31 after roadmap creation (traceability populated, 24/24 v1 mapped)*
