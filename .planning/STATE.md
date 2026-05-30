@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-05-31)
 
 **Core value:** Point at any repo → get a high-quality, committable architecture picture a human can present and an AI agent can read+update — with zero non-permissive licenses in the client-facing chain.
-**Current focus:** v1 build COMPLETE (24/24 reqs) — remaining: Codex cross-review + runnable cases
+**Current focus:** v1 COMPLETE + cross-AI reviewed + fixed. Done.
 
 ## Current Position
 
-Phase: 5 of 5 complete (all phases shipped)
+Phase: 5 of 5 complete (all phases shipped) + cross-review remediation
 Plan: Phases 1-5 complete (5/5)
-Status: v1 DONE — 24/24 requirements satisfied; 57 tests GREEN; license gate PASS (178 deps permissive); dogfooded on self (151 nodes, committed bundle in docs/architecture/). NOTE: in-browser render + PNG export not screenshotted (Chrome ext not connected) — verify via `npm run dev:app` or open docs/architecture/viz/index.html. NEXT: Codex cross-review + runnable end-to-end cases (user request).
-Last activity: 2026-05-31 — Phase 5 Reusability + Dogfood committed (REUSE-01/02, SEC-01)
+Status: v1 DONE — 24/24 requirements; 60 tests GREEN; license gate PASS (178 deps permissive); dogfooded on self (157 nodes). Cross-AI review (Codex GPT + independent Opus) found a real determinism gap (graph.json byte-identical was incidental, not guaranteed) + 2 security hardenings — ALL FIXED + re-verified (.planning/REVIEW.md). 5 runnable cases PASS (self-scan, re-scan determinism, cross-repo, annotation round-trip, viewer integrity). NOTE: in-browser render + PNG export not screenshotted (Chrome ext not connected) — verify via `npm run dev:app` or open docs/architecture/viz/index.html.
+Last activity: 2026-05-31 — cross-review remediation committed (f874b8d)
 
 Progress: [██████████] 100%
 
