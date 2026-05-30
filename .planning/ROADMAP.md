@@ -13,7 +13,7 @@ A strict, dependency-ordered build of a local code-architecture visualizer. The 
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Shared Contract** - Freeze the versioned, deterministic, agent-updatable `graph.json` schema in `shared/` (the spine everything reads)
-- [ ] **Phase 2: CLI Extraction** - `arch-viz scan <repo>` runs CodeGraph, reads its SQLite DB, normalizes, and emits `graph.json` (highest-density security)
+- [x] **Phase 2: CLI Extraction** - `arch-viz scan <repo>` runs CodeGraph, reads its SQLite DB, normalizes, and emits `graph.json` (highest-density security)
 - [ ] **Phase 3: Viewer Core** - 4-pane Vite/React/React Flow app renders the graph with anti-hairball clustering/collapse/filter/focus designed in
 - [ ] **Phase 4: Export & Handoff Bundle** - Deterministic SVG, ARCHITECTURE.md, self-contained HTML viewer, and optional PNG (XSS-critical)
 - [ ] **Phase 5: Reusability + Dogfood** - Project-agnostic reuse, the license-allowlist ship gate, and ship-to-validate by visualizing self + one mature repo
@@ -47,7 +47,7 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 02-01: TBD during plan-phase
+- [x] 02-01: `arch-viz scan` — runCodegraph (node entry, no shell) · better-sqlite3 readonly · dedupe/seeded-Louvain/metrics/dagre · path-fenced atomic emit; 21 cli tests GREEN; real fixture scan byte-identical
 
 ### Phase 3: Viewer Core
 **Goal**: A Vite + React + React Flow 4-pane app loads and validates `graph.json` and renders it as an interactive graph that defaults to a collapsed, clustered view — with clustering, collapse/expand, filter (path/type/depth), focus, search, a detail pane, a tree pane, a Mermaid diagram-source pane, and a node-count performance guardrail — so a human can finally *see* the architecture without ever hitting the hairball.
@@ -102,7 +102,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Shared Contract | 1/1 | Complete | 2026-05-31 |
-| 2. CLI Extraction | 0/TBD | Not started | - |
+| 2. CLI Extraction | 1/1 | Complete | 2026-05-31 |
 | 3. Viewer Core | 0/TBD | Not started | - |
 | 4. Export & Handoff Bundle | 0/TBD | Not started | - |
 | 5. Reusability + Dogfood | 0/TBD | Not started | - |

@@ -9,3 +9,9 @@ Thumbs.db
 
 # CodeGraph local index DB (never commit the SQLite cache)
 .codegraph/
+
+# Generated bundle from the CLI test fixture (regenerated on demand; not a committed artifact)
+cli/test/fixtures/**/docs/
+
+# Throwaway DB-inspection scratch
+inspect-tmp.mjs

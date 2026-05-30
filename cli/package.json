@@ -6,6 +6,13 @@
   "description": "arch-viz scan <repo> → graph.json. (Phase 2 builds out scan/normalize/layout/emit.)",
   "license": "MIT",
   "dependencies": {
-    "@arch-viz/shared": "*"
+    "@arch-viz/shared": "*",
+    "@dagrejs/dagre": "^3.0.0",
+    "better-sqlite3": "^12.10.0",
+    "graphology": "^0.26.0",
+    "graphology-communities-louvain": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
   }
 }

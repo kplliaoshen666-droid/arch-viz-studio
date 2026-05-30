@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-05-31)
 
 **Core value:** Point at any repo → get a high-quality, committable architecture picture a human can present and an AI agent can read+update — with zero non-permissive licenses in the client-facing chain.
-**Current focus:** Phase 2 — CLI Extraction (scan a repo → graph.json)
+**Current focus:** Phase 3 — Viewer Core (4-pane Vite/React/React Flow app)
 
 ## Current Position
 
-Phase: 2 of 5 (CLI Extraction)
-Plan: Phase 1 complete (1/1)
-Status: Phase 1 shipped — tsc + 18 vitest tests GREEN; graph.json contract frozen in shared/
-Last activity: 2026-05-31 — Phase 1 Shared Contract committed (SCHEMA-01..04 satisfied)
+Phase: 3 of 5 (Viewer Core)
+Plan: Phases 1-2 complete (2/2)
+Status: Phase 2 shipped — 39 tests GREEN, npm audit clean; real `arch-viz scan` emits a valid, byte-identical graph.json
+Last activity: 2026-05-31 — Phase 2 CLI Extraction committed (CLI-01..05, SEC-02 satisfied)
 
-Progress: [██░░░░░░░░] 20%
+Progress: [████░░░░░░] 40%
 
 ## Performance Metrics
 
