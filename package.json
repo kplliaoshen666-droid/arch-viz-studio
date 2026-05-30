@@ -15,16 +15,22 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "arch-viz": "tsx cli/src/bin.ts",
+    "build:cli": "node scripts/build-cli.mjs",
+    "install:global": "node scripts/build-cli.mjs && npm install -g ./cli/dist",
     "dev:app": "vite --config app/vite.config.ts",
     "build:app": "vite build --config app/vite.config.ts",
     "preview:app": "vite preview --config app/vite.config.ts",
+    "test:e2e": "playwright test",
+    "test:e2e:install": "playwright install chromium",
     "lint:licenses": "node scripts/check-licenses.mjs"
   },
   "engines": {
     "node": ">=22.12"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1",
+    "esbuild": "^0.28.0",
     "tsx": "^4.22.3",
     "typescript": "^6.0.3",
     "vitest": "^4.1.7"

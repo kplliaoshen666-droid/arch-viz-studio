@@ -12,22 +12,43 @@ import { writeBundle } from './emit/writeGraph';
 const TOOL_VERSION = '0.1.0';
 const pExecFile = promisify(execFile);
 
-interface Args {
+interface ScanArgs {
   repo: string;
   out: string | undefined;
   noSync: boolean;
   useTargetCodegraph: boolean;
 }
 
-const USAGE = 'Usage: arch-viz scan <repo> [--out <dir>] [--no-sync] [--use-target-codegraph]';
+const HELP = `arch-viz ${TOOL_VERSION} — committable architecture pictures for any repo
 
-function parseArgs(argv: string[]): Args {
-  if (argv[0] !== 'scan') fail(`Unknown command "${argv[0] ?? ''}". ${USAGE}`);
+Usage:
+  arch-viz scan [repo] [options]     Scan a repo → docs/architecture/ bundle
+  arch-viz --help                    Show this help
+  arch-viz --version                 Print version
+
+Arguments:
+  repo                               Repo to scan (default: current directory)
+
+Options:
+  --out <dir>                        Output directory (default: <repo>/docs/architecture)
+  --no-sync                          Read the existing CodeGraph index; skip re-index
+  --use-target-codegraph             Allow the target repo's local CodeGraph binary
+                                     (default: only a trusted global 'codegraph' is run)
+
+Outputs (written into <repo>/docs/architecture/):
+  graph.json          agent-readable graph contract (stable, versioned, deterministic)
+  architecture.svg    rendered diagram
+  ARCHITECTURE.md     narrative for humans
+  viz/index.html      self-contained offline viewer (double-click to open)
+
+Requires the CodeGraph CLI on PATH:  npm i -g @colbymchenry/codegraph`;
+
+function parseScanArgs(argv: string[]): ScanArgs {
   let repo: string | undefined;
   let out: string | undefined;
   let noSync = false;
   let useTargetCodegraph = false;
-  for (let i = 1; i < argv.length; i += 1) {
+  for (let i = 0; i < argv.length; i += 1) {
     const a = argv[i];
     if (a === '--no-sync') noSync = true;
     else if (a === '--use-target-codegraph') useTargetCodegraph = true;
@@ -35,12 +56,12 @@ function parseArgs(argv: string[]): Args {
       out = argv[i + 1];
       i += 1;
       if (!out) fail('--out requires a directory');
-    } else if (a.startsWith('--')) fail(`Unknown flag ${a}. ${USAGE}`);
+    } else if (a.startsWith('--')) fail(`Unknown flag ${a}.\n\n${HELP}`);
     else if (!repo) repo = a;
-    else fail(`Unexpected argument "${a}". ${USAGE}`);
+    else fail(`Unexpected argument "${a}".\n\n${HELP}`);
   }
-  if (!repo) fail(USAGE);
-  return { repo, out, noSync, useTargetCodegraph };
+  // No positional repo → scan the current working directory (the "cd into a repo, just scan" path).
+  return { repo: repo ?? process.cwd(), out, noSync, useTargetCodegraph };
 }
 
 async function gitHead(repoRoot: string): Promise<string> {
@@ -55,8 +76,8 @@ async function gitHead(repoRoot: string): Promise<string> {
   }
 }
 
-async function main(): Promise<void> {
-  const args = parseArgs(process.argv.slice(2));
+async function scan(argv: string[]): Promise<void> {
+  const args = parseScanArgs(argv);
   const repoRoot = resolveRepoRoot(args.repo);
   const outDir = args.out ?? join(repoRoot, 'docs', 'architecture');
 
@@ -80,6 +101,23 @@ async function main(): Promise<void> {
       `${graph.clusters.length} clusters${merged ? ' · annotations merged' : ''}\n` +
       '  files: graph.json · architecture.svg · ARCHITECTURE.md · viz/index.html\n',
   );
+}
+
+async function main(): Promise<void> {
+  const argv = process.argv.slice(2);
+  const cmd = argv[0];
+
+  if (cmd === undefined || cmd === '--help' || cmd === '-h' || cmd === 'help') {
+    process.stdout.write(`${HELP}\n`);
+    return;
+  }
+  if (cmd === '--version' || cmd === '-v' || cmd === 'version') {
+    process.stdout.write(`arch-viz ${TOOL_VERSION}\n`);
+    return;
+  }
+  if (cmd !== 'scan') fail(`Unknown command "${cmd}".\n\n${HELP}`);
+
+  await scan(argv.slice(1));
 }
 
 function fail(msg: string): never {
