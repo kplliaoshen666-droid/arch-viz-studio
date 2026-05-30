@@ -15,3 +15,14 @@ cli/test/fixtures/**/docs/
 
 # Throwaway DB-inspection scratch
 inspect-tmp.mjs
+
+# Playwright E2E artifacts + headless screenshots (regenerated each run).
+# (The committed README hero lives in assets/, not here.)
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+app/e2e/screenshots/
+
+# Built global CLI bundle — regenerate with `npm run build:cli` (also matched by `dist/` above).
+cli/dist/

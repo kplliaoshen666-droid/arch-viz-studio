@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-05-31)
 
 **Core value:** Point at any repo → get a high-quality, committable architecture picture a human can present and an AI agent can read+update — with zero non-permissive licenses in the client-facing chain.
-**Current focus:** v1 COMPLETE + cross-AI reviewed + fixed. Done.
+**Current focus:** v1 + global-CLI distribution. Installable as a global `arch-viz` command (`npm run install:global`; `scan` defaults to cwd), with Playwright E2E + a prompt-driven CLI contract suite, README/LICENSE, and CI (build:cli + e2e). Published to GitHub.
 
 ## Current Position
 
 Phase: 5 of 5 complete (all phases shipped) + cross-review remediation
 Plan: Phases 1-5 complete (5/5)
 Status: v1 DONE — 24/24 requirements; 60 tests GREEN; license gate PASS (178 deps permissive); dogfooded on self (157 nodes). Cross-AI review (Codex GPT + independent Opus) found a real determinism gap (graph.json byte-identical was incidental, not guaranteed) + 2 security hardenings — ALL FIXED + re-verified (.planning/REVIEW.md). 5 runnable cases PASS (self-scan, re-scan determinism, cross-repo, annotation round-trip, viewer integrity). NOTE: in-browser render + PNG export not screenshotted (Chrome ext not connected) — verify via `npm run dev:app` or open docs/architecture/viz/index.html.
-Last activity: 2026-05-31 — cross-review remediation committed (f874b8d)
+Last activity: 2026-05-31 — global `arch-viz` CLI (esbuild single-file bundle, cwd-default, --help/--version) + Playwright E2E (4 specs, real screenshots) + prompt-driven CLI contract (5 specs) + README/LICENSE/CI; pushed to github.com/kplliaoshen666-droid/arch-viz-studio
 
 Progress: [██████████] 100%
 
