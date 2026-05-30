@@ -1,5 +1,5 @@
-import { isAbsolute, relative, resolve } from 'node:path';
-import { realpathSync, statSync } from 'node:fs';
+import { dirname, isAbsolute, relative, resolve } from 'node:path';
+import { existsSync, realpathSync, statSync } from 'node:fs';
 
 /**
  * Resolve a target repo path and assert it is an existing directory.
@@ -28,9 +28,32 @@ export function resolveRepoRoot(input: string): string {
 export function ensureWithin(root: string, target: string): string {
   const realRoot = realpathSync(resolve(root));
   const absTarget = resolve(target);
-  const rel = relative(realRoot, absTarget);
-  if (rel !== '' && (rel.startsWith('..') || isAbsolute(rel))) {
-    throw new Error(`Refusing to write outside the target repo:\n  ${absTarget}\n  is not within ${realRoot}`);
+
+  // 1. Lexical check: reject `..` / absolute escape.
+  const relLex = relative(realRoot, absTarget);
+  if (relLex !== '' && (relLex.startsWith('..') || isAbsolute(relLex))) {
+    throw outsideError(absTarget, realRoot);
+  }
+
+  // 2. Symlink check: realpath the deepest EXISTING ancestor of the target (the parts we
+  //    won't create) and re-verify containment, so a symlinked directory component can't
+  //    redirect the write outside the repo even though the lexical path looks contained.
+  let probe = absTarget;
+  while (!existsSync(probe)) {
+    const parent = dirname(probe);
+    if (parent === probe) break;
+    probe = parent;
+  }
+  if (existsSync(probe)) {
+    const realProbe = realpathSync(probe);
+    const relReal = relative(realRoot, realProbe);
+    if (relReal !== '' && (relReal.startsWith('..') || isAbsolute(relReal))) {
+      throw outsideError(absTarget, realRoot);
+    }
   }
   return absTarget;
+}
+
+function outsideError(target: string, root: string): Error {
+  return new Error(`Refusing to write outside the target repo:\n  ${target}\n  is not within ${root}`);
 }

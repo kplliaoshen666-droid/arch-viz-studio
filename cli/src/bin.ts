@@ -16,18 +16,21 @@ interface Args {
   repo: string;
   out: string | undefined;
   noSync: boolean;
+  useTargetCodegraph: boolean;
 }
 
-const USAGE = 'Usage: arch-viz scan <repo> [--out <dir>] [--no-sync]';
+const USAGE = 'Usage: arch-viz scan <repo> [--out <dir>] [--no-sync] [--use-target-codegraph]';
 
 function parseArgs(argv: string[]): Args {
   if (argv[0] !== 'scan') fail(`Unknown command "${argv[0] ?? ''}". ${USAGE}`);
   let repo: string | undefined;
   let out: string | undefined;
   let noSync = false;
+  let useTargetCodegraph = false;
   for (let i = 1; i < argv.length; i += 1) {
     const a = argv[i];
     if (a === '--no-sync') noSync = true;
+    else if (a === '--use-target-codegraph') useTargetCodegraph = true;
     else if (a === '--out') {
       out = argv[i + 1];
       i += 1;
@@ -37,7 +40,7 @@ function parseArgs(argv: string[]): Args {
     else fail(`Unexpected argument "${a}". ${USAGE}`);
   }
   if (!repo) fail(USAGE);
-  return { repo, out, noSync };
+  return { repo, out, noSync, useTargetCodegraph };
 }
 
 async function gitHead(repoRoot: string): Promise<string> {
@@ -57,7 +60,7 @@ async function main(): Promise<void> {
   const repoRoot = resolveRepoRoot(args.repo);
   const outDir = args.out ?? join(repoRoot, 'docs', 'architecture');
 
-  const runner = resolveCodegraph(repoRoot);
+  const runner = resolveCodegraph(repoRoot, args.useTargetCodegraph);
   process.stderr.write(`• CodeGraph ${runner.version} → ${args.noSync ? 'reading' : 'syncing'} ${repoRoot}\n`);
   await syncOrIndex(runner, repoRoot, args.noSync);
 

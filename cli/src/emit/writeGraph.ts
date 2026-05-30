@@ -45,7 +45,9 @@ export function writeGraphFile(graph: GraphFile, repoRoot: string, outDir: strin
 }
 
 function atomicWrite(path: string, text: string): void {
-  const tmp = `${path}.tmp`;
+  // pid-suffixed tmp name so a maliciously pre-planted `<file>.tmp` symlink in the target
+  // repo can't redirect the write; then atomic rename onto the final path.
+  const tmp = `${path}.${process.pid}.tmp`;
   writeFileSync(tmp, text, 'utf8');
   renameSync(tmp, path); // atomic on the same volume
 }

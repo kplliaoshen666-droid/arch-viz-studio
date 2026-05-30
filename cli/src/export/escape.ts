@@ -36,6 +36,7 @@ export function mdCell(s: string): string {
     .replace(/\r?\n/g, ' ')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
+    .replace(/([[\]()])/g, '\\$1') // neutralize markdown link / image syntax (![..](..) / [..](..))
     .replace(/\|/g, '\\|')
     .replace(/`/g, '');
 }

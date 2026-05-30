@@ -21,20 +21,21 @@ export function computeMetrics(nodes: GraphNode[], edges: readonly GraphEdge[]):
     }
   }
 
-  const memo = new Map<string, number>();
-  const descendants = (id: string, seen: Set<string>): number => {
-    if (memo.has(id)) return memo.get(id)!;
-    if (seen.has(id)) return 0; // cycle guard
-    seen.add(id);
-    let count = 0;
-    for (const child of containsChildren.get(id) ?? []) {
-      if (!byId.has(child)) continue;
-      count += 1 + descendants(child, seen);
+  // descendants = number of DISTINCT nodes reachable via `contains`, excluding self.
+  // Per-node traversal over a fresh visited set: order-independent and cycle-safe by
+  // construction (no cross-node memo, so a `contains` cycle can never make the result
+  // depend on the order nodes are visited).
+  for (const n of nodes) {
+    const seen = new Set<string>();
+    const stack = [n.id];
+    while (stack.length > 0) {
+      const cur = stack.pop()!;
+      for (const child of containsChildren.get(cur) ?? []) {
+        if (child === n.id || seen.has(child) || !byId.has(child)) continue;
+        seen.add(child);
+        stack.push(child);
+      }
     }
-    seen.delete(id);
-    memo.set(id, count);
-    return count;
-  };
-
-  for (const n of nodes) n.metrics.descendants = descendants(n.id, new Set());
+    n.metrics.descendants = seen.size;
+  }
 }

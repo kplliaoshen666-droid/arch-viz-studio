@@ -58,16 +58,18 @@ export function readDb(dbPath: string): RawData {
       );
     }
 
+    // ORDER BY is load-bearing for determinism: SQLite row order is otherwise
+    // unspecified, and downstream dedupe / Louvain insertion / metrics consume this order.
     const nodes = db
       .prepare(
         `SELECT id, kind, name, qualified_name, file_path, language,
                 start_line, end_line, is_exported, is_async, is_static, is_abstract
-         FROM nodes`,
+         FROM nodes ORDER BY id`,
       )
       .all() as RawNode[];
 
     const edges = db
-      .prepare('SELECT source, target, kind, metadata FROM edges')
+      .prepare('SELECT source, target, kind, metadata FROM edges ORDER BY source, target, kind, metadata')
       .all() as RawEdge[];
 
     const files = db.prepare('SELECT modified_at FROM files').all() as {

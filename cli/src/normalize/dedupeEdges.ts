@@ -21,7 +21,12 @@ export function dedupeEdges(pre: PreEdge[]): GraphEdge[] {
     const existing = byId.get(id);
     if (existing) {
       existing.weight += 1;
-      if (e.confidence > existing.confidence) {
+      // Deterministic tie-break: higher confidence wins; on equal confidence prefer the
+      // lexicographically smaller resolvedBy so the result never depends on input order.
+      if (
+        e.confidence > existing.confidence ||
+        (e.confidence === existing.confidence && e.resolvedBy < existing.resolvedBy)
+      ) {
         existing.confidence = e.confidence;
         existing.resolvedBy = e.resolvedBy;
       }

@@ -111,7 +111,10 @@ function parseMeta(s: string | null): { confidence?: number; resolvedBy?: string
   try {
     const o = JSON.parse(s) as { confidence?: unknown; resolvedBy?: unknown };
     return {
-      confidence: typeof o.confidence === 'number' ? o.confidence : undefined,
+      // Clamp to the schema's [0,1] range — CodeGraph output is untrusted at this boundary;
+      // an out-of-range confidence would otherwise fail the emit-gate validation and abort the scan.
+      confidence:
+        typeof o.confidence === 'number' ? Math.min(1, Math.max(0, o.confidence)) : undefined,
       resolvedBy: typeof o.resolvedBy === 'string' ? o.resolvedBy : undefined,
     };
   } catch {
@@ -184,7 +187,7 @@ function buildMeta(
       engine: 'codegraph',
       engineVersion: opts.engineVersion,
       codegraphSchema: raw.codegraphSchema,
-      codegraphDbHash: 'sha256:' + contentHash(nodes, edges),
+      codegraphDbHash: 'sha256:' + contentHash(raw),
     },
     counts: { nodes: nodes.length, edges: edges.length, clusters: clusters.length },
     layout: { algo: 'dagre', rankdir: 'LR', version: 1 },
@@ -192,13 +195,19 @@ function buildMeta(
   };
 }
 
-function contentHash(nodes: readonly GraphNode[], edges: readonly GraphEdge[]): string {
+// A real content digest of the consumed CodeGraph DB rows (all fields, deterministically
+// ordered) — so the key changes when labels/spans/paths/flags/edges change, not only ids.
+function contentHash(raw: RawData): string {
   const h = createHash('sha256');
-  h.update(
-    JSON.stringify({
-      n: nodes.map((n) => n.id).sort(),
-      e: edges.map((e) => e.id).sort(),
-    }),
-  );
+  const nodes = [...raw.nodes].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  const edges = [...raw.edges].sort((a, b) => {
+    if (a.source !== b.source) return a.source < b.source ? -1 : 1;
+    if (a.target !== b.target) return a.target < b.target ? -1 : 1;
+    if (a.kind !== b.kind) return a.kind < b.kind ? -1 : 1;
+    const am = a.metadata ?? '';
+    const bm = b.metadata ?? '';
+    return am < bm ? -1 : am > bm ? 1 : 0;
+  });
+  h.update(JSON.stringify({ nodes, edges }));
   return h.digest('hex');
 }

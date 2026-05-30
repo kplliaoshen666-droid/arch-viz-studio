@@ -18,10 +18,15 @@ export interface CodegraphRunner {
  * Locate @colbymchenry/codegraph and return a runner that invokes it as
  * `node <entry> ...args` — never via a shell and never via the `.cmd`/`.bat` shim
  * (which would require shell:true and re-open command injection on Windows, per
- * CVE-2024-27980 / DEP0190). Resolution is target-first then global (REUSE-01).
+ * CVE-2024-27980 / DEP0190).
+ *
+ * By default we resolve ONLY trusted installs (our own workspace + global). The target
+ * repo's own node_modules/@colbymchenry/codegraph is used only when preferTarget is set
+ * (the `--use-target-codegraph` flag), so scanning an untrusted repo never executes code
+ * the repo shipped in its node_modules.
  */
-export function resolveCodegraph(repoRoot: string): CodegraphRunner {
-  for (const dir of candidatePackageDirs(repoRoot)) {
+export function resolveCodegraph(repoRoot: string, preferTarget = false): CodegraphRunner {
+  for (const dir of candidatePackageDirs(repoRoot, preferTarget)) {
     const pkgPath = join(dir, 'package.json');
     if (!existsSync(pkgPath)) continue;
     try {
@@ -45,19 +50,19 @@ export function resolveCodegraph(repoRoot: string): CodegraphRunner {
   );
 }
 
-function candidatePackageDirs(repoRoot: string): string[] {
+function candidatePackageDirs(repoRoot: string, preferTarget: boolean): string[] {
   const scoped = ['@colbymchenry', 'codegraph'];
-  const dirs = [
-    join(repoRoot, 'node_modules', ...scoped), // target-first
-    join(process.cwd(), 'node_modules', ...scoped), // our workspace
-  ];
+  // Trusted: our own workspace + global installs.
+  const trusted: string[] = [join(process.cwd(), 'node_modules', ...scoped)];
   const appdata = process.env.APPDATA;
-  if (appdata) dirs.push(join(appdata, 'npm', 'node_modules', ...scoped)); // Windows global
+  if (appdata) trusted.push(join(appdata, 'npm', 'node_modules', ...scoped)); // Windows global
   const prefix = process.env.npm_config_prefix;
-  if (prefix) dirs.push(join(prefix, 'lib', 'node_modules', ...scoped)); // posix global
-  dirs.push(join('/usr/local/lib/node_modules', ...scoped));
-  dirs.push(join('/usr/lib/node_modules', ...scoped));
-  return dirs;
+  if (prefix) trusted.push(join(prefix, 'lib', 'node_modules', ...scoped)); // posix global
+  trusted.push(join('/usr/local/lib/node_modules', ...scoped));
+  trusted.push(join('/usr/lib/node_modules', ...scoped));
+
+  const target = join(repoRoot, 'node_modules', ...scoped);
+  return preferTarget ? [target, ...trusted] : trusted; // target only on explicit opt-in
 }
 
 function guardNodeVersion(): void {

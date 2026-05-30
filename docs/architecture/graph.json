@@ -1,21 +1,21 @@
 {
   "meta": {
     "schemaVersion": "1.0.0",
-    "generatedAt": "2026-05-30T22:35:13.311Z",
+    "generatedAt": "2026-05-30T22:59:27.319Z",
     "sourceRepo": "arch-viz-studio",
-    "sourceRepoHash": "git:38070838ab561ce1ea024d4af3ff26b6ba7a46ba",
+    "sourceRepoHash": "git:eac68a7ff0b2bb3c5cf9c0dfc32e01933203e9cf",
     "generator": {
       "name": "arch-viz",
       "version": "0.1.0",
       "engine": "codegraph",
       "engineVersion": "0.9.4",
       "codegraphSchema": 4,
-      "codegraphDbHash": "sha256:33c29ba2166b25004f4c1a81d8cf4a28a6a00891d49d1bcaf24e0d0316000c35"
+      "codegraphDbHash": "sha256:cafd47ed0c32891a6d28f8b44a128ae58a851fb65b0227d8cbdb03ca33fbfba1"
     },
     "counts": {
-      "nodes": 151,
-      "edges": 257,
-      "clusters": 31
+      "nodes": 157,
+      "edges": 265,
+      "clusters": 36
     },
     "layout": {
       "algo": "dagre",
@@ -55,7 +55,7 @@
       },
       "position": {
         "x": 349.5,
-        "y": 5959
+        "y": 6399
       },
       "annotations": null
     },
@@ -115,7 +115,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 89
+        "y": 79
       },
       "annotations": null
     },
@@ -145,7 +145,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 5294
+        "y": 5789
       },
       "annotations": null
     },
@@ -175,7 +175,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 5794
+        "y": 6234
       },
       "annotations": null
     },
@@ -205,7 +205,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 4784
+        "y": 5214
       },
       "annotations": null
     },
@@ -235,7 +235,7 @@
       },
       "position": {
         "x": 115,
-        "y": 5959
+        "y": 6399
       },
       "annotations": null
     },
@@ -295,7 +295,7 @@
       },
       "position": {
         "x": 573,
-        "y": 5829
+        "y": 6274
       },
       "annotations": null
     },
@@ -325,7 +325,7 @@
       },
       "position": {
         "x": 573,
-        "y": 6069
+        "y": 6594
       },
       "annotations": null
     },
@@ -355,7 +355,7 @@
       },
       "position": {
         "x": 823,
-        "y": 6464
+        "y": 6904
       },
       "annotations": null
     },
@@ -385,7 +385,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 5714
+        "y": 6154
       },
       "annotations": null
     },
@@ -415,7 +415,7 @@
       },
       "position": {
         "x": 823,
-        "y": 5934
+        "y": 6374
       },
       "annotations": null
     },
@@ -445,7 +445,7 @@
       },
       "position": {
         "x": 823,
-        "y": 5579
+        "y": 6099
       },
       "annotations": null
     },
@@ -475,7 +475,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5114
+        "y": 5474
       },
       "annotations": null
     },
@@ -535,7 +535,7 @@
       },
       "position": {
         "x": 573,
-        "y": 5524
+        "y": 6064
       },
       "annotations": null
     },
@@ -565,7 +565,7 @@
       },
       "position": {
         "x": 823,
-        "y": 4659
+        "y": 5244
       },
       "annotations": null
     },
@@ -608,7 +608,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 91
+        "endLine": 94
       },
       "cluster": 4,
       "flags": {
@@ -618,14 +618,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 91,
+        "loc": 94,
         "fanIn": 0,
         "fanOut": 1,
         "descendants": 4
       },
       "position": {
         "x": 1099,
-        "y": 459
+        "y": 634
       },
       "annotations": null
     },
@@ -638,7 +638,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 101
+        "endLine": 103
       },
       "cluster": 5,
       "flags": {
@@ -648,7 +648,7 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 101,
+        "loc": 103,
         "fanIn": 0,
         "fanOut": 0,
         "descendants": 3
@@ -668,7 +668,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 47
+        "endLine": 48
       },
       "cluster": 5,
       "flags": {
@@ -678,14 +678,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 47,
+        "loc": 48,
         "fanIn": 0,
         "fanOut": 0,
         "descendants": 4
       },
       "position": {
         "x": 2206.5,
-        "y": 1549
+        "y": 1339
       },
       "annotations": null
     },
@@ -715,7 +715,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 1164
+        "y": 1039
       },
       "annotations": null
     },
@@ -745,7 +745,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 2339
+        "y": 2274
       },
       "annotations": null
     },
@@ -775,7 +775,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 1164
+        "y": 1039
       },
       "annotations": null
     },
@@ -805,7 +805,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 3524
+        "y": 3679
       },
       "annotations": null
     },
@@ -818,7 +818,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 205
+        "endLine": 214
       },
       "cluster": 4,
       "flags": {
@@ -828,14 +828,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 205,
+        "loc": 214,
         "fanIn": 0,
         "fanOut": 0,
         "descendants": 7
       },
       "position": {
         "x": 1393.5,
-        "y": 4089
+        "y": 4384
       },
       "annotations": null
     },
@@ -865,7 +865,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 3874
+        "y": 4189
       },
       "annotations": null
     },
@@ -875,6 +875,36 @@
       "label": "dedupeEdges.ts",
       "qualifiedName": "cli/src/normalize/dedupeEdges.ts",
       "path": "cli/src/normalize/dedupeEdges.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 1,
+        "endLine": 47
+      },
+      "cluster": 4,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 47,
+        "fanIn": 0,
+        "fanOut": 0,
+        "descendants": 1
+      },
+      "position": {
+        "x": 1662,
+        "y": 3039
+      },
+      "annotations": null
+    },
+    {
+      "id": "file:cli/src/normalize/metrics.ts",
+      "kind": "file",
+      "label": "metrics.ts",
+      "qualifiedName": "cli/src/normalize/metrics.ts",
+      "path": "cli/src/normalize/metrics.ts",
       "lang": "typescript",
       "span": {
         "startLine": 1,
@@ -895,37 +925,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 3329
-      },
-      "annotations": null
-    },
-    {
-      "id": "file:cli/src/normalize/metrics.ts",
-      "kind": "file",
-      "label": "metrics.ts",
-      "qualifiedName": "cli/src/normalize/metrics.ts",
-      "path": "cli/src/normalize/metrics.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 1,
-        "endLine": 41
-      },
-      "cluster": 4,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 41,
-        "fanIn": 0,
-        "fanOut": 0,
-        "descendants": 1
-      },
-      "position": {
-        "x": 1662,
-        "y": 4034
+        "y": 4309
       },
       "annotations": null
     },
@@ -938,7 +938,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 83
+        "endLine": 85
       },
       "cluster": 4,
       "flags": {
@@ -948,7 +948,7 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 83,
+        "loc": 85,
         "fanIn": 0,
         "fanOut": 0,
         "descendants": 2
@@ -985,7 +985,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 3704
+        "y": 3199
       },
       "annotations": null
     },
@@ -998,7 +998,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 98
+        "endLine": 103
       },
       "cluster": 4,
       "flags": {
@@ -1008,7 +1008,7 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 98,
+        "loc": 103,
         "fanIn": 0,
         "fanOut": 0,
         "descendants": 5
@@ -1028,7 +1028,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 37
+        "endLine": 60
       },
       "cluster": 5,
       "flags": {
@@ -1038,14 +1038,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 37,
+        "loc": 60,
         "fanIn": 0,
         "fanOut": 0,
-        "descendants": 2
+        "descendants": 3
       },
       "position": {
         "x": 1662,
-        "y": 2499
+        "y": 2434
       },
       "annotations": null
     },
@@ -1075,7 +1075,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 4219
+        "y": 3344
       },
       "annotations": null
     },
@@ -1105,7 +1105,37 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 2704
+        "y": 2639
+      },
+      "annotations": null
+    },
+    {
+      "id": "file:cli/test/determinism.test.ts",
+      "kind": "file",
+      "label": "determinism.test.ts",
+      "qualifiedName": "cli/test/determinism.test.ts",
+      "path": "cli/test/determinism.test.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 1,
+        "endLine": 75
+      },
+      "cluster": 4,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 75,
+        "fanIn": 0,
+        "fanOut": 0,
+        "descendants": 3
+      },
+      "position": {
+        "x": 1099,
+        "y": 4589
       },
       "annotations": null
     },
@@ -1135,7 +1165,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 2924
+        "y": 2749
       },
       "annotations": null
     },
@@ -1165,7 +1195,7 @@
       },
       "position": {
         "x": 823,
-        "y": 4849
+        "y": 5429
       },
       "annotations": null
     },
@@ -1195,7 +1225,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 4599
+        "y": 5069
       },
       "annotations": null
     },
@@ -1225,7 +1255,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 4794
+        "y": 5264
       },
       "annotations": null
     },
@@ -1255,7 +1285,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 3229
+        "y": 2859
       },
       "annotations": null
     },
@@ -1285,7 +1315,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 3309
+        "y": 2939
       },
       "annotations": null
     },
@@ -1315,7 +1345,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 4679
+        "y": 5149
       },
       "annotations": null
     },
@@ -1345,7 +1375,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 1324
+        "y": 1144
       },
       "annotations": null
     },
@@ -1358,7 +1388,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 1,
-        "endLine": 121
+        "endLine": 124
       },
       "cluster": 7,
       "flags": {
@@ -1368,14 +1398,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 121,
+        "loc": 124,
         "fanIn": 0,
         "fanOut": 0,
         "descendants": 8
       },
       "position": {
         "x": 1662,
-        "y": 1569
+        "y": 1629
       },
       "annotations": null
     },
@@ -1405,7 +1435,7 @@
       },
       "position": {
         "x": 2206.5,
-        "y": 1444
+        "y": 1434
       },
       "annotations": null
     },
@@ -1435,7 +1465,7 @@
       },
       "position": {
         "x": 573,
-        "y": 6714
+        "y": 7154
       },
       "annotations": null
     },
@@ -1465,7 +1495,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 2039
+        "y": 1974
       },
       "annotations": null
     },
@@ -1495,7 +1525,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 1444
+        "y": 1434
       },
       "annotations": null
     },
@@ -1525,7 +1555,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 2179
+        "y": 2114
       },
       "annotations": null
     },
@@ -1555,7 +1585,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 2119
+        "y": 2054
       },
       "annotations": null
     },
@@ -1615,7 +1645,7 @@
       },
       "position": {
         "x": 115,
-        "y": 6739
+        "y": 7179
       },
       "annotations": null
     },
@@ -1645,7 +1675,7 @@
       },
       "position": {
         "x": 349.5,
-        "y": 6764
+        "y": 7204
       },
       "annotations": null
     },
@@ -1675,7 +1705,7 @@
       },
       "position": {
         "x": 115,
-        "y": 6829
+        "y": 7269
       },
       "annotations": null
     },
@@ -1705,7 +1735,7 @@
       },
       "position": {
         "x": 115,
-        "y": 6909
+        "y": 7349
       },
       "annotations": null
     },
@@ -1765,37 +1795,37 @@
       },
       "position": {
         "x": 2486.5,
-        "y": 789
+        "y": 709
       },
       "annotations": null
     },
     {
-      "id": "function:087864777ae5902bae19310b3881a9d4",
+      "id": "function:08acfd603e825c951254a6c1712bd700",
       "kind": "function",
-      "label": "main",
-      "qualifiedName": "main",
-      "path": "cli/src/bin.ts",
+      "label": "rawCycle",
+      "qualifiedName": "rawCycle",
+      "path": "cli/test/determinism.test.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 55,
-        "endLine": 80
+        "startLine": 29,
+        "endLine": 45
       },
       "cluster": 12,
       "flags": {
         "exported": false,
-        "async": true,
+        "async": false,
         "static": false,
         "abstract": false
       },
       "metrics": {
-        "loc": 26,
-        "fanIn": 1,
-        "fanOut": 10,
+        "loc": 17,
+        "fanIn": 0,
+        "fanOut": 1,
         "descendants": 0
       },
       "position": {
         "x": 1393.5,
-        "y": 1554
+        "y": 4749
       },
       "annotations": null
     },
@@ -1825,7 +1855,37 @@
       },
       "position": {
         "x": 1662,
-        "y": 5324
+        "y": 5764
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:1241afb0bd016a92b830a724016a840a",
+      "kind": "function",
+      "label": "outsideError",
+      "qualifiedName": "outsideError",
+      "path": "cli/src/security/paths.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 57,
+        "endLine": 59
+      },
+      "cluster": 10,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 3,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 2206.5,
+        "y": 1514
       },
       "annotations": null
     },
@@ -1849,13 +1909,13 @@
       },
       "metrics": {
         "loc": 50,
-        "fanIn": 1,
+        "fanIn": 2,
         "fanOut": 8,
         "descendants": 0
       },
       "position": {
         "x": 1662,
-        "y": 2944
+        "y": 3574
       },
       "annotations": null
     },
@@ -1885,7 +1945,37 @@
       },
       "position": {
         "x": 2206.5,
-        "y": 1174
+        "y": 1099
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:150fe5ea76d4eac7275f3700ba34c6a8",
+      "kind": "function",
+      "label": "candidatePackageDirs",
+      "qualifiedName": "candidatePackageDirs",
+      "path": "cli/src/scan/runCodegraph.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 53,
+        "endLine": 66
+      },
+      "cluster": 14,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 14,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1923,
+        "y": 389
       },
       "annotations": null
     },
@@ -1900,7 +1990,7 @@
         "startLine": 14,
         "endLine": 54
       },
-      "cluster": 14,
+      "cluster": 15,
       "flags": {
         "exported": false,
         "async": false,
@@ -1915,7 +2005,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 3169
+        "y": 2839
       },
       "annotations": null
     },
@@ -1930,7 +2020,7 @@
         "startLine": 37,
         "endLine": 39
       },
-      "cluster": 15,
+      "cluster": 16,
       "flags": {
         "exported": false,
         "async": false,
@@ -1945,7 +2035,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 3429
+        "y": 3119
       },
       "annotations": null
     },
@@ -1975,7 +2065,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 4924
+        "y": 5394
       },
       "annotations": null
     },
@@ -1990,7 +2080,7 @@
         "startLine": 89,
         "endLine": 143
       },
-      "cluster": 11,
+      "cluster": 10,
       "flags": {
         "exported": true,
         "async": false,
@@ -2000,42 +2090,12 @@
       "metrics": {
         "loc": 55,
         "fanIn": 1,
-        "fanOut": 3,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1923,
-        "y": 779
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:1d03b2f25b8be05a8337272291a17c25",
-      "kind": "function",
-      "label": "canonicalize",
-      "qualifiedName": "canonicalize",
-      "path": "shared/src/canonicalize.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 32,
-        "endLine": 34
-      },
-      "cluster": 10,
-      "flags": {
-        "exported": true,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 3,
-        "fanIn": 2,
         "fanOut": 1,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 494
+        "y": 709
       },
       "annotations": null
     },
@@ -2050,7 +2110,7 @@
         "startLine": 31,
         "endLine": 37
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": false,
         "async": false,
@@ -2065,7 +2125,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5639
+        "y": 6079
       },
       "annotations": null
     },
@@ -2095,7 +2155,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 4929
+        "y": 5399
       },
       "annotations": null
     },
@@ -2125,7 +2185,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 4099
+        "y": 4439
       },
       "annotations": null
     },
@@ -2155,7 +2215,7 @@
       },
       "position": {
         "x": 1662,
-        "y": 5579
+        "y": 6074
       },
       "annotations": null
     },
@@ -2185,7 +2245,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 89
+        "y": 79
       },
       "annotations": null
     },
@@ -2200,7 +2260,7 @@
         "startLine": 62,
         "endLine": 66
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": false,
         "async": false,
@@ -2215,7 +2275,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 4874
+        "y": 5369
       },
       "annotations": null
     },
@@ -2230,7 +2290,7 @@
         "startLine": 6,
         "endLine": 10
       },
-      "cluster": 17,
+      "cluster": 18,
       "flags": {
         "exported": true,
         "async": false,
@@ -2245,37 +2305,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5399
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:2bb958c84904af4c7436302bc02011a6",
-      "kind": "function",
-      "label": "contentHash",
-      "qualifiedName": "contentHash",
-      "path": "cli/src/normalize/buildGraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 195,
-        "endLine": 204
-      },
-      "cluster": 13,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 10,
-        "fanIn": 1,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 2206.5,
-        "y": 4014
+        "y": 5839
       },
       "annotations": null
     },
@@ -2290,7 +2320,7 @@
         "startLine": 12,
         "endLine": 72
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": false,
@@ -2305,7 +2335,7 @@
       },
       "position": {
         "x": 573,
-        "y": 6794
+        "y": 7234
       },
       "annotations": null
     },
@@ -2320,7 +2350,7 @@
         "startLine": 11,
         "endLine": 18
       },
-      "cluster": 11,
+      "cluster": 19,
       "flags": {
         "exported": true,
         "async": false,
@@ -2329,13 +2359,13 @@
       },
       "metrics": {
         "loc": 8,
-        "fanIn": 2,
+        "fanIn": 0,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 2486.5,
-        "y": 1059
+        "y": 1219
       },
       "annotations": null
     },
@@ -2348,7 +2378,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 47,
-        "endLine": 51
+        "endLine": 53
       },
       "cluster": 10,
       "flags": {
@@ -2358,44 +2388,44 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 5,
+        "loc": 7,
         "fanIn": 2,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 244
+        "y": 234
       },
       "annotations": null
     },
     {
-      "id": "function:388f4389fccab1b547a6e02310227347",
+      "id": "function:38b38f0231f16ff6ee717aee9a873fb2",
       "kind": "function",
-      "label": "mdText",
-      "qualifiedName": "mdText",
-      "path": "cli/src/export/escape.ts",
+      "label": "canonEdge",
+      "qualifiedName": "canonEdge",
+      "path": "shared/src/canonicalize.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 44,
-        "endLine": 46
+        "startLine": 90,
+        "endLine": 100
       },
-      "cluster": 18,
+      "cluster": 20,
       "flags": {
-        "exported": true,
+        "exported": false,
         "async": false,
         "static": false,
         "abstract": false
       },
       "metrics": {
-        "loc": 3,
+        "loc": 11,
         "fanIn": 0,
-        "fanOut": 0,
+        "fanOut": 1,
         "descendants": 0
       },
       "position": {
-        "x": 2486.5,
-        "y": 1804
+        "x": 1923,
+        "y": 1219
       },
       "annotations": null
     },
@@ -2425,7 +2455,37 @@
       },
       "position": {
         "x": 1923,
-        "y": 3279
+        "y": 3719
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:3c736008cbbf476f4f3a77768d1e4747",
+      "kind": "function",
+      "label": "build",
+      "qualifiedName": "build",
+      "path": "cli/test/determinism.test.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 49,
+        "endLine": 53
+      },
+      "cluster": 10,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 5,
+        "fanIn": 0,
+        "fanOut": 3,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1393.5,
+        "y": 4829
       },
       "annotations": null
     },
@@ -2440,7 +2500,7 @@
         "startLine": 8,
         "endLine": 29
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": false,
@@ -2455,7 +2515,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 5874
+        "y": 6314
       },
       "annotations": null
     },
@@ -2485,7 +2545,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 4599
+        "y": 5069
       },
       "annotations": null
     },
@@ -2498,9 +2558,9 @@
       "lang": "typescript",
       "span": {
         "startLine": 34,
-        "endLine": 41
+        "endLine": 42
       },
-      "cluster": 19,
+      "cluster": 21,
       "flags": {
         "exported": true,
         "async": false,
@@ -2508,14 +2568,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 8,
-        "fanIn": 1,
+        "loc": 9,
+        "fanIn": 0,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 2486.5,
-        "y": 1884
+        "y": 1299
       },
       "annotations": null
     },
@@ -2545,7 +2605,7 @@
       },
       "position": {
         "x": 2486.5,
-        "y": 2164
+        "y": 2099
       },
       "annotations": null
     },
@@ -2558,7 +2618,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 28,
-        "endLine": 36
+        "endLine": 55
       },
       "cluster": 10,
       "flags": {
@@ -2568,14 +2628,44 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 9,
+        "loc": 28,
         "fanIn": 2,
-        "fanOut": 0,
+        "fanOut": 1,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 1084
+        "y": 909
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7",
+      "kind": "function",
+      "label": "main",
+      "qualifiedName": "main",
+      "path": "cli/src/bin.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 58,
+        "endLine": 83
+      },
+      "cluster": 14,
+      "flags": {
+        "exported": false,
+        "async": true,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 26,
+        "fanIn": 1,
+        "fanOut": 10,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1393.5,
+        "y": 2444
       },
       "annotations": null
     },
@@ -2590,7 +2680,7 @@
         "startLine": 20,
         "endLine": 45
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": false,
         "async": false,
@@ -2605,7 +2695,37 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 6464
+        "y": 6904
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:4ac2af609c26dbe4cef81ede000f785b",
+      "kind": "function",
+      "label": "resolveCodegraph",
+      "qualifiedName": "resolveCodegraph",
+      "path": "cli/src/scan/runCodegraph.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 28,
+        "endLine": 51
+      },
+      "cluster": 14,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 24,
+        "fanIn": 1,
+        "fanOut": 1,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1662,
+        "y": 434
       },
       "annotations": null
     },
@@ -2618,9 +2738,9 @@
       "lang": "typescript",
       "span": {
         "startLine": 17,
-        "endLine": 25
+        "endLine": 28
       },
-      "cluster": 10,
+      "cluster": 22,
       "flags": {
         "exported": true,
         "async": false,
@@ -2628,44 +2748,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 9,
+        "loc": 12,
         "fanIn": 1,
         "fanOut": 2,
         "descendants": 0
       },
       "position": {
         "x": 2206.5,
-        "y": 1039
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:4dea2a462999e9b230563757d96423ab",
-      "kind": "function",
-      "label": "buildMeta",
-      "qualifiedName": "buildMeta",
-      "path": "cli/src/normalize/buildGraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 167,
-        "endLine": 193
-      },
-      "cluster": 13,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 27,
-        "fanIn": 1,
-        "fanOut": 1,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1923,
-        "y": 3644
+        "y": 1614
       },
       "annotations": null
     },
@@ -2680,7 +2770,7 @@
         "startLine": 47,
         "endLine": 105
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": false,
@@ -2695,7 +2785,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 6569
+        "y": 7009
       },
       "annotations": null
     },
@@ -2720,12 +2810,12 @@
       "metrics": {
         "loc": 97,
         "fanIn": 2,
-        "fanOut": 4,
+        "fanOut": 3,
         "descendants": 0
       },
       "position": {
         "x": 2206.5,
-        "y": 779
+        "y": 629
       },
       "annotations": null
     },
@@ -2755,7 +2845,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 4784
+        "y": 5214
       },
       "annotations": null
     },
@@ -2770,7 +2860,7 @@
         "startLine": 11,
         "endLine": 54
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": false,
         "async": false,
@@ -2785,7 +2875,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 4519
+        "y": 4989
       },
       "annotations": null
     },
@@ -2800,7 +2890,7 @@
         "startLine": 12,
         "endLine": 65
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": false,
@@ -2815,7 +2905,7 @@
       },
       "position": {
         "x": 823,
-        "y": 6129
+        "y": 6569
       },
       "annotations": null
     },
@@ -2830,7 +2920,7 @@
         "startLine": 6,
         "endLine": 18
       },
-      "cluster": 20,
+      "cluster": 23,
       "flags": {
         "exported": false,
         "async": false,
@@ -2845,7 +2935,37 @@
       },
       "position": {
         "x": 1662,
-        "y": 4364
+        "y": 4389
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:5d2116fcd64ac2b66cfd266eb07d8161",
+      "kind": "function",
+      "label": "canonMeta",
+      "qualifiedName": "canonMeta",
+      "path": "shared/src/canonicalize.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 39,
+        "endLine": 61
+      },
+      "cluster": 22,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 23,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 2486.5,
+        "y": 1574
       },
       "annotations": null
     },
@@ -2860,7 +2980,7 @@
         "startLine": 15,
         "endLine": 18
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": false,
         "async": false,
@@ -2875,7 +2995,37 @@
       },
       "position": {
         "x": 1662,
-        "y": 6494
+        "y": 6934
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:617ef67f7a1f5c42863e8643ba43e910",
+      "kind": "function",
+      "label": "run",
+      "qualifiedName": "run",
+      "path": "cli/src/scan/runCodegraph.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 77,
+        "endLine": 84
+      },
+      "cluster": 14,
+      "flags": {
+        "exported": false,
+        "async": true,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 8,
+        "fanIn": 1,
+        "fanOut": 1,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1923,
+        "y": 1299
       },
       "annotations": null
     },
@@ -2888,7 +3038,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 109,
-        "endLine": 120
+        "endLine": 123
       },
       "cluster": 13,
       "flags": {
@@ -2898,89 +3048,29 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 12,
+        "loc": 15,
         "fanIn": 1,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 3744
+        "y": 3959
       },
       "annotations": null
     },
     {
-      "id": "function:627d7d96bd0dadad77cff0cb8c617ebc",
-      "kind": "function",
-      "label": "parseArgs",
-      "qualifiedName": "parseArgs",
-      "path": "cli/src/bin.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 23,
-        "endLine": 41
-      },
-      "cluster": 12,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 19,
-        "fanIn": 1,
-        "fanOut": 1,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1662,
-        "y": 2704
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:645a442ad755ae4dc2458f1983f48630",
-      "kind": "function",
-      "label": "cmp",
-      "qualifiedName": "cmp",
-      "path": "shared/src/canonicalize.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 118,
-        "endLine": 120
-      },
-      "cluster": 10,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 3,
-        "fanIn": 1,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 2486.5,
-        "y": 1299
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:696b92c4a89be0196b4cf2caae14c488",
+      "id": "function:64d2072bdaceb1c21aa1144661266d4c",
       "kind": "function",
       "label": "fail",
       "qualifiedName": "fail",
       "path": "cli/src/bin.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 82,
-        "endLine": 85
+        "startLine": 85,
+        "endLine": 88
       },
-      "cluster": 12,
+      "cluster": 14,
       "flags": {
         "exported": false,
         "async": false,
@@ -2995,7 +3085,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 2834
+        "y": 2989
       },
       "annotations": null
     },
@@ -3025,7 +3115,7 @@
       },
       "position": {
         "x": 2206.5,
-        "y": 3409
+        "y": 4059
       },
       "annotations": null
     },
@@ -3040,7 +3130,7 @@
         "startLine": 9,
         "endLine": 68
       },
-      "cluster": 19,
+      "cluster": 10,
       "flags": {
         "exported": true,
         "async": false,
@@ -3050,12 +3140,42 @@
       "metrics": {
         "loc": 60,
         "fanIn": 1,
-        "fanOut": 1,
+        "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 1759
+        "y": 1614
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:6b2182afad501ab27668f1049fa07437",
+      "kind": "function",
+      "label": "mdText",
+      "qualifiedName": "mdText",
+      "path": "cli/src/export/escape.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 45,
+        "endLine": 47
+      },
+      "cluster": 24,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 3,
+        "fanIn": 0,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 2486.5,
+        "y": 1379
       },
       "annotations": null
     },
@@ -3085,37 +3205,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 1004
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:6df043db28d5c6967f91368686c357d4",
-      "kind": "function",
-      "label": "candidatePackageDirs",
-      "qualifiedName": "candidatePackageDirs",
-      "path": "cli/src/scan/runCodegraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 48,
-        "endLine": 61
-      },
-      "cluster": 12,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 14,
-        "fanIn": 1,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1923,
-        "y": 1299
+        "y": 809
       },
       "annotations": null
     },
@@ -3128,7 +3218,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 7,
-        "endLine": 40
+        "endLine": 41
       },
       "cluster": 13,
       "flags": {
@@ -3138,104 +3228,44 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 34,
+        "loc": 35,
         "fanIn": 1,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 3564
+        "y": 3799
       },
       "annotations": null
     },
     {
-      "id": "function:6fecb46d1b4ca36f587ac556400bde1f",
+      "id": "function:70af42ea489b6d3d2bbfe15c617c5f52",
       "kind": "function",
-      "label": "guardNodeVersion",
-      "qualifiedName": "guardNodeVersion",
-      "path": "cli/src/scan/runCodegraph.ts",
+      "label": "canonicalize",
+      "qualifiedName": "canonicalize",
+      "path": "shared/src/canonicalize.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 63,
-        "endLine": 70
+        "startLine": 35,
+        "endLine": 37
       },
-      "cluster": 12,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 8,
-        "fanIn": 1,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 2206.5,
-        "y": 499
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:705225b2120de8c3ed192ce1b2204291",
-      "kind": "function",
-      "label": "clusterLabel",
-      "qualifiedName": "clusterLabel",
-      "path": "cli/src/normalize/buildGraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 143,
-        "endLine": 165
-      },
-      "cluster": 13,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 23,
-        "fanIn": 1,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 2206.5,
-        "y": 4094
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:714af4fa948322771db9a438edbf034c",
-      "kind": "function",
-      "label": "syncOrIndex",
-      "qualifiedName": "syncOrIndex",
-      "path": "cli/src/scan/runCodegraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 85,
-        "endLine": 97
-      },
-      "cluster": 12,
+      "cluster": 10,
       "flags": {
         "exported": true,
-        "async": true,
+        "async": false,
         "static": false,
         "abstract": false
       },
       "metrics": {
-        "loc": 13,
-        "fanIn": 1,
+        "loc": 3,
+        "fanIn": 3,
         "fanOut": 1,
         "descendants": 0
       },
       "position": {
-        "x": 1662,
-        "y": 1244
+        "x": 1923,
+        "y": 1814
       },
       "annotations": null
     },
@@ -3250,7 +3280,7 @@
         "startLine": 73,
         "endLine": 131
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": false,
@@ -3265,67 +3295,37 @@
       },
       "position": {
         "x": 1099,
-        "y": 6029
+        "y": 6469
       },
       "annotations": null
     },
     {
-      "id": "function:782deb366f7c367027ff725743f1058c",
+      "id": "function:731185a97dc11bc85b2fb81868db780c",
       "kind": "function",
-      "label": "gitHead",
-      "qualifiedName": "gitHead",
+      "label": "parseArgs",
+      "qualifiedName": "parseArgs",
       "path": "cli/src/bin.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 43,
-        "endLine": 53
+        "startLine": 24,
+        "endLine": 44
       },
-      "cluster": 12,
+      "cluster": 14,
       "flags": {
         "exported": false,
-        "async": true,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 11,
-        "fanIn": 1,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1662,
-        "y": 2804
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:80d72d7079bd739d255aa4a94009dbe9",
-      "kind": "function",
-      "label": "resolveCodegraph",
-      "qualifiedName": "resolveCodegraph",
-      "path": "cli/src/scan/runCodegraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 23,
-        "endLine": 46
-      },
-      "cluster": 12,
-      "flags": {
-        "exported": true,
         "async": false,
         "static": false,
         "abstract": false
       },
       "metrics": {
-        "loc": 24,
+        "loc": 21,
         "fanIn": 1,
         "fanOut": 1,
         "descendants": 0
       },
       "position": {
         "x": 1662,
-        "y": 2419
+        "y": 2639
       },
       "annotations": null
     },
@@ -3340,7 +3340,7 @@
         "startLine": 6,
         "endLine": 19
       },
-      "cluster": 21,
+      "cluster": 25,
       "flags": {
         "exported": false,
         "async": false,
@@ -3355,37 +3355,7 @@
       },
       "position": {
         "x": 823,
-        "y": 5279
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:89d253c5075e2dea72688a2f2d937087",
-      "kind": "function",
-      "label": "run",
-      "qualifiedName": "run",
-      "path": "cli/src/scan/runCodegraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 72,
-        "endLine": 79
-      },
-      "cluster": 12,
-      "flags": {
-        "exported": false,
-        "async": true,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 8,
-        "fanIn": 1,
-        "fanOut": 1,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1923,
-        "y": 619
+        "y": 5799
       },
       "annotations": null
     },
@@ -3400,7 +3370,7 @@
         "startLine": 33,
         "endLine": 35
       },
-      "cluster": 12,
+      "cluster": 14,
       "flags": {
         "exported": false,
         "async": false,
@@ -3415,7 +3385,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 3359
+        "y": 3879
       },
       "annotations": null
     },
@@ -3430,7 +3400,7 @@
         "startLine": 72,
         "endLine": 86
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": false,
@@ -3445,7 +3415,7 @@
       },
       "position": {
         "x": 823,
-        "y": 6554
+        "y": 6994
       },
       "annotations": null
     },
@@ -3475,7 +3445,7 @@
       },
       "position": {
         "x": 2206.5,
-        "y": 2104
+        "y": 1934
       },
       "annotations": null
     },
@@ -3490,7 +3460,7 @@
         "startLine": 26,
         "endLine": 31
       },
-      "cluster": 11,
+      "cluster": 26,
       "flags": {
         "exported": true,
         "async": false,
@@ -3499,13 +3469,13 @@
       },
       "metrics": {
         "loc": 6,
-        "fanIn": 1,
+        "fanIn": 0,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 2486.5,
-        "y": 1379
+        "y": 1459
       },
       "annotations": null
     },
@@ -3520,7 +3490,7 @@
         "startLine": 19,
         "endLine": 22
       },
-      "cluster": 22,
+      "cluster": 27,
       "flags": {
         "exported": false,
         "async": false,
@@ -3535,7 +3505,7 @@
       },
       "position": {
         "x": 823,
-        "y": 6209
+        "y": 6649
       },
       "annotations": null
     },
@@ -3548,7 +3518,7 @@
       "lang": "typescript",
       "span": {
         "startLine": 17,
-        "endLine": 41
+        "endLine": 46
       },
       "cluster": 13,
       "flags": {
@@ -3558,14 +3528,74 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 25,
+        "loc": 30,
         "fanIn": 1,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 3119
+        "y": 3264
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:9ffcbb7e810b3a6f3b5d1871e073d95d",
+      "kind": "function",
+      "label": "canonCluster",
+      "qualifiedName": "canonCluster",
+      "path": "shared/src/canonicalize.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 102,
+        "endLine": 112
+      },
+      "cluster": 28,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 11,
+        "fanIn": 0,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1923,
+        "y": 1694
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:a3c4eb49ce5d77944ef1a0ee13b0117c",
+      "kind": "function",
+      "label": "cmp",
+      "qualifiedName": "cmp",
+      "path": "shared/src/canonicalize.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 121,
+        "endLine": 123
+      },
+      "cluster": 22,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 3,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 2486.5,
+        "y": 1734
       },
       "annotations": null
     },
@@ -3580,7 +3610,7 @@
         "startLine": 13,
         "endLine": 139
       },
-      "cluster": 23,
+      "cluster": 29,
       "flags": {
         "exported": true,
         "async": false,
@@ -3595,7 +3625,37 @@
       },
       "position": {
         "x": 573,
-        "y": 6884
+        "y": 7324
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:ac40aa0234fee6c2f1ca800efd712efc",
+      "kind": "function",
+      "label": "gitHead",
+      "qualifiedName": "gitHead",
+      "path": "cli/src/bin.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 46,
+        "endLine": 56
+      },
+      "cluster": 14,
+      "flags": {
+        "exported": false,
+        "async": true,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 11,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1662,
+        "y": 2739
       },
       "annotations": null
     },
@@ -3610,7 +3670,7 @@
         "startLine": 24,
         "endLine": 26
       },
-      "cluster": 24,
+      "cluster": 30,
       "flags": {
         "exported": true,
         "async": false,
@@ -3625,7 +3685,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5519
+        "y": 5959
       },
       "annotations": null
     },
@@ -3655,50 +3715,20 @@
       },
       "position": {
         "x": 2486.5,
-        "y": 1139
+        "y": 799
       },
       "annotations": null
     },
     {
-      "id": "function:b0a28d11323be9e10fe65d42c48599d4",
-      "kind": "function",
-      "label": "canonCluster",
-      "qualifiedName": "canonCluster",
-      "path": "shared/src/canonicalize.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 99,
-        "endLine": 109
-      },
-      "cluster": 25,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 11,
-        "fanIn": 0,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1923,
-        "y": 1564
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8",
       "kind": "function",
       "label": "writeBundle",
       "qualifiedName": "writeBundle",
       "path": "cli/src/emit/writeGraph.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 65,
-        "endLine": 100
+        "startLine": 67,
+        "endLine": 102
       },
       "cluster": 10,
       "flags": {
@@ -3745,7 +3775,37 @@
       },
       "position": {
         "x": 1662,
-        "y": 5659
+        "y": 6169
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:b9273d00529cf1f3d9367f184b2ba88c",
+      "kind": "function",
+      "label": "syncOrIndex",
+      "qualifiedName": "syncOrIndex",
+      "path": "cli/src/scan/runCodegraph.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 90,
+        "endLine": 102
+      },
+      "cluster": 14,
+      "flags": {
+        "exported": true,
+        "async": true,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 13,
+        "fanIn": 1,
+        "fanOut": 1,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1662,
+        "y": 2354
       },
       "annotations": null
     },
@@ -3775,22 +3835,22 @@
       },
       "position": {
         "x": 2486.5,
-        "y": 1219
+        "y": 1039
       },
       "annotations": null
     },
     {
-      "id": "function:bd5137ac3d8b61c4140d0bbd740aa9f3",
+      "id": "function:bd5e54a2059452c709b36de3db76552a",
       "kind": "function",
-      "label": "canonEdge",
-      "qualifiedName": "canonEdge",
-      "path": "shared/src/canonicalize.ts",
+      "label": "clusterLabel",
+      "qualifiedName": "clusterLabel",
+      "path": "cli/src/normalize/buildGraph.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 87,
-        "endLine": 97
+        "startLine": 146,
+        "endLine": 168
       },
-      "cluster": 26,
+      "cluster": 13,
       "flags": {
         "exported": false,
         "async": false,
@@ -3798,14 +3858,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 11,
-        "fanIn": 0,
-        "fanOut": 1,
+        "loc": 23,
+        "fanIn": 1,
+        "fanOut": 0,
         "descendants": 0
       },
       "position": {
-        "x": 1923,
-        "y": 1839
+        "x": 2206.5,
+        "y": 4499
       },
       "annotations": null
     },
@@ -3835,22 +3895,22 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5024
+        "y": 5554
       },
       "annotations": null
     },
     {
-      "id": "function:bfe4336fef8e1f6a23a2013ea1dfea16",
+      "id": "function:c0c524476367150b45a8fe1179720e09",
       "kind": "function",
-      "label": "canonMeta",
-      "qualifiedName": "canonMeta",
-      "path": "shared/src/canonicalize.ts",
+      "label": "guardNodeVersion",
+      "qualifiedName": "guardNodeVersion",
+      "path": "cli/src/scan/runCodegraph.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 36,
-        "endLine": 58
+        "startLine": 68,
+        "endLine": 75
       },
-      "cluster": 10,
+      "cluster": 14,
       "flags": {
         "exported": false,
         "async": false,
@@ -3858,14 +3918,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 23,
+        "loc": 8,
         "fanIn": 1,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
-        "x": 2486.5,
-        "y": 1549
+        "x": 2206.5,
+        "y": 999
       },
       "annotations": null
     },
@@ -3880,7 +3940,7 @@
         "startLine": 12,
         "endLine": 14
       },
-      "cluster": 27,
+      "cluster": 31,
       "flags": {
         "exported": true,
         "async": false,
@@ -3895,37 +3955,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5719
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:c519029bec203dc475707dbc6dd8f476",
-      "kind": "function",
-      "label": "buildClusters",
-      "qualifiedName": "buildClusters",
-      "path": "cli/src/normalize/buildGraph.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 122,
-        "endLine": 140
-      },
-      "cluster": 13,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 19,
-        "fanIn": 1,
-        "fanOut": 1,
-        "descendants": 0
-      },
-      "position": {
-        "x": 1923,
-        "y": 3824
+        "y": 6159
       },
       "annotations": null
     },
@@ -3955,7 +3985,7 @@
       },
       "position": {
         "x": 2206.5,
-        "y": 3664
+        "y": 3669
       },
       "annotations": null
     },
@@ -3970,7 +4000,7 @@
         "startLine": 56,
         "endLine": 71
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": false,
         "async": false,
@@ -3985,7 +4015,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5194
+        "y": 5634
       },
       "annotations": null
     },
@@ -4015,7 +4045,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 4954
+        "y": 5449
       },
       "annotations": null
     },
@@ -4028,9 +4058,9 @@
       "lang": "typescript",
       "span": {
         "startLine": 47,
-        "endLine": 82
+        "endLine": 84
       },
-      "cluster": 12,
+      "cluster": 14,
       "flags": {
         "exported": true,
         "async": false,
@@ -4038,14 +4068,14 @@
         "abstract": false
       },
       "metrics": {
-        "loc": 36,
+        "loc": 38,
         "fanIn": 1,
         "fanOut": 0,
         "descendants": 0
       },
       "position": {
         "x": 1923,
-        "y": 2914
+        "y": 3344
       },
       "annotations": null
     },
@@ -4075,7 +4105,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 3439
+        "y": 3504
       },
       "annotations": null
     },
@@ -4090,7 +4120,7 @@
         "startLine": 9,
         "endLine": 34
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": true,
@@ -4105,7 +4135,37 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5919
+        "y": 6359
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:d33da28b6b05541c612f1f7e095054fc",
+      "kind": "function",
+      "label": "buildMeta",
+      "qualifiedName": "buildMeta",
+      "path": "cli/src/normalize/buildGraph.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 170,
+        "endLine": 196
+      },
+      "cluster": 13,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 27,
+        "fanIn": 1,
+        "fanOut": 1,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1923,
+        "y": 4039
       },
       "annotations": null
     },
@@ -4135,7 +4195,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 699
+        "y": 629
       },
       "annotations": null
     },
@@ -4150,7 +4210,7 @@
         "startLine": 10,
         "endLine": 60
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": true,
         "async": false,
@@ -4165,7 +4225,7 @@
       },
       "position": {
         "x": 823,
-        "y": 6014
+        "y": 6454
       },
       "annotations": null
     },
@@ -4180,7 +4240,7 @@
         "startLine": 22,
         "endLine": 42
       },
-      "cluster": 20,
+      "cluster": 23,
       "flags": {
         "exported": false,
         "async": false,
@@ -4195,7 +4255,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 4419
+        "y": 4644
       },
       "annotations": null
     },
@@ -4225,7 +4285,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 4844
+        "y": 5314
       },
       "annotations": null
     },
@@ -4255,7 +4315,7 @@
       },
       "position": {
         "x": 2206.5,
-        "y": 3829
+        "y": 4229
       },
       "annotations": null
     },
@@ -4270,7 +4330,7 @@
         "startLine": 9,
         "endLine": 31
       },
-      "cluster": 12,
+      "cluster": 14,
       "flags": {
         "exported": true,
         "async": false,
@@ -4279,28 +4339,88 @@
       },
       "metrics": {
         "loc": 23,
-        "fanIn": 1,
+        "fanIn": 2,
         "fanOut": 1,
         "descendants": 0
       },
       "position": {
         "x": 1662,
-        "y": 3249
+        "y": 3874
       },
       "annotations": null
     },
     {
-      "id": "function:e096002e955b7fbd54df90c12d9622fb",
+      "id": "function:deee0df3edd5d5ab39daacb66eab1a48",
+      "kind": "function",
+      "label": "node",
+      "qualifiedName": "node",
+      "path": "cli/test/determinism.test.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 12,
+        "endLine": 27
+      },
+      "cluster": 12,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 16,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1662,
+        "y": 4749
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:dfc0da15f8b24d05a3204411a0545734",
+      "kind": "function",
+      "label": "round",
+      "qualifiedName": "round",
+      "path": "shared/src/canonicalize.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 114,
+        "endLine": 119
+      },
+      "cluster": 20,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 6,
+        "fanIn": 2,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 2206.5,
+        "y": 1694
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:dfd7ee4b9cacced118827edf86c6e7c4",
       "kind": "function",
       "label": "canonNode",
       "qualifiedName": "canonNode",
       "path": "shared/src/canonicalize.ts",
       "lang": "typescript",
       "span": {
-        "startLine": 60,
-        "endLine": 85
+        "startLine": 63,
+        "endLine": 88
       },
-      "cluster": 26,
+      "cluster": 20,
       "flags": {
         "exported": false,
         "async": false,
@@ -4315,7 +4435,67 @@
       },
       "position": {
         "x": 1923,
-        "y": 1939
+        "y": 1894
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:e1ba2d81b86a0be86210b22b31ab8951",
+      "kind": "function",
+      "label": "contentHash",
+      "qualifiedName": "contentHash",
+      "path": "cli/src/normalize/buildGraph.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 200,
+        "endLine": 213
+      },
+      "cluster": 13,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 14,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 2206.5,
+        "y": 4309
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:e31868e4af0a2cf220be1d8c254467f1",
+      "kind": "function",
+      "label": "buildClusters",
+      "qualifiedName": "buildClusters",
+      "path": "cli/src/normalize/buildGraph.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 125,
+        "endLine": 143
+      },
+      "cluster": 13,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 19,
+        "fanIn": 1,
+        "fanOut": 1,
+        "descendants": 0
+      },
+      "position": {
+        "x": 1923,
+        "y": 4239
       },
       "annotations": null
     },
@@ -4330,7 +4510,7 @@
         "startLine": 38,
         "endLine": 44
       },
-      "cluster": 12,
+      "cluster": 14,
       "flags": {
         "exported": true,
         "async": false,
@@ -4345,7 +4525,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 3199
+        "y": 3424
       },
       "annotations": null
     },
@@ -4360,7 +4540,7 @@
         "startLine": 34,
         "endLine": 41
       },
-      "cluster": 28,
+      "cluster": 32,
       "flags": {
         "exported": false,
         "async": false,
@@ -4375,7 +4555,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 2279
+        "y": 2214
       },
       "annotations": null
     },
@@ -4405,37 +4585,7 @@
       },
       "position": {
         "x": 1393.5,
-        "y": 5999
-      },
-      "annotations": null
-    },
-    {
-      "id": "function:eeeab5f4182e29dcc0dad8c697fae144",
-      "kind": "function",
-      "label": "round",
-      "qualifiedName": "round",
-      "path": "shared/src/canonicalize.ts",
-      "lang": "typescript",
-      "span": {
-        "startLine": 111,
-        "endLine": 116
-      },
-      "cluster": 26,
-      "flags": {
-        "exported": false,
-        "async": false,
-        "static": false,
-        "abstract": false
-      },
-      "metrics": {
-        "loc": 6,
-        "fanIn": 2,
-        "fanOut": 0,
-        "descendants": 0
-      },
-      "position": {
-        "x": 2206.5,
-        "y": 1964
+        "y": 6439
       },
       "annotations": null
     },
@@ -4450,7 +4600,7 @@
         "startLine": 9,
         "endLine": 21
       },
-      "cluster": 12,
+      "cluster": 14,
       "flags": {
         "exported": true,
         "async": false,
@@ -4465,7 +4615,7 @@
       },
       "position": {
         "x": 1923,
-        "y": 2614
+        "y": 2549
       },
       "annotations": null
     },
@@ -4480,7 +4630,7 @@
         "startLine": 11,
         "endLine": 13
       },
-      "cluster": 29,
+      "cluster": 33,
       "flags": {
         "exported": false,
         "async": false,
@@ -4495,7 +4645,7 @@
       },
       "position": {
         "x": 2206.5,
-        "y": 1304
+        "y": 1199
       },
       "annotations": null
     },
@@ -4510,7 +4660,7 @@
         "startLine": 24,
         "endLine": 70
       },
-      "cluster": 16,
+      "cluster": 17,
       "flags": {
         "exported": false,
         "async": false,
@@ -4525,7 +4675,7 @@
       },
       "position": {
         "x": 1099,
-        "y": 6349
+        "y": 6789
       },
       "annotations": null
     },
@@ -4540,7 +4690,7 @@
         "startLine": 32,
         "endLine": 32
       },
-      "cluster": 30,
+      "cluster": 34,
       "flags": {
         "exported": true,
         "async": false,
@@ -4555,7 +4705,37 @@
       },
       "position": {
         "x": 115,
-        "y": 6989
+        "y": 7429
+      },
+      "annotations": null
+    },
+    {
+      "id": "hook:cli/src/bin.ts:useTargetCodegraph:29",
+      "kind": "function",
+      "label": "useTargetCodegraph",
+      "qualifiedName": "cli/src/bin.ts::useTargetCodegraph",
+      "path": "cli/src/bin.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 29,
+        "endLine": 29
+      },
+      "cluster": 35,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 1,
+        "fanIn": 0,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 115,
+        "y": 7509
       },
       "annotations": null
     }
@@ -5093,45 +5273,45 @@
       "resolvedBy": "qualified-name"
     },
     {
-      "id": "file:cli/src/bin.ts->function:087864777ae5902bae19310b3881a9d4:calls",
+      "id": "file:cli/src/bin.ts->function:494438e5af4d84283d0e9b709c11fee7:calls",
       "source": "file:cli/src/bin.ts",
-      "target": "function:087864777ae5902bae19310b3881a9d4",
+      "target": "function:494438e5af4d84283d0e9b709c11fee7",
       "kind": "calls",
       "weight": 1,
       "confidence": 0.7,
       "resolvedBy": "exact-match"
     },
     {
-      "id": "file:cli/src/bin.ts->function:087864777ae5902bae19310b3881a9d4:contains",
+      "id": "file:cli/src/bin.ts->function:494438e5af4d84283d0e9b709c11fee7:contains",
       "source": "file:cli/src/bin.ts",
-      "target": "function:087864777ae5902bae19310b3881a9d4",
+      "target": "function:494438e5af4d84283d0e9b709c11fee7",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/bin.ts->function:627d7d96bd0dadad77cff0cb8c617ebc:contains",
+      "id": "file:cli/src/bin.ts->function:64d2072bdaceb1c21aa1144661266d4c:contains",
       "source": "file:cli/src/bin.ts",
-      "target": "function:627d7d96bd0dadad77cff0cb8c617ebc",
+      "target": "function:64d2072bdaceb1c21aa1144661266d4c",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/bin.ts->function:696b92c4a89be0196b4cf2caae14c488:contains",
+      "id": "file:cli/src/bin.ts->function:731185a97dc11bc85b2fb81868db780c:contains",
       "source": "file:cli/src/bin.ts",
-      "target": "function:696b92c4a89be0196b4cf2caae14c488",
+      "target": "function:731185a97dc11bc85b2fb81868db780c",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/bin.ts->function:782deb366f7c367027ff725743f1058c:contains",
+      "id": "file:cli/src/bin.ts->function:ac40aa0234fee6c2f1ca800efd712efc:contains",
       "source": "file:cli/src/bin.ts",
-      "target": "function:782deb366f7c367027ff725743f1058c",
+      "target": "function:ac40aa0234fee6c2f1ca800efd712efc",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
@@ -5192,9 +5372,9 @@
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/emit/writeGraph.ts->function:b41d6e67edf7b6db89b006ae60dc6f29:contains",
+      "id": "file:cli/src/emit/writeGraph.ts->function:b57e29a89641606dc4b3dd4925317dd8:contains",
       "source": "file:cli/src/emit/writeGraph.ts",
-      "target": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "target": "function:b57e29a89641606dc4b3dd4925317dd8",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
@@ -5210,18 +5390,18 @@
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/export/escape.ts->function:388f4389fccab1b547a6e02310227347:contains",
+      "id": "file:cli/src/export/escape.ts->function:408db388d157f6279a4468e85ba6b456:contains",
       "source": "file:cli/src/export/escape.ts",
-      "target": "function:388f4389fccab1b547a6e02310227347",
+      "target": "function:408db388d157f6279a4468e85ba6b456",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/export/escape.ts->function:408db388d157f6279a4468e85ba6b456:contains",
+      "id": "file:cli/src/export/escape.ts->function:6b2182afad501ab27668f1049fa07437:contains",
       "source": "file:cli/src/export/escape.ts",
-      "target": "function:408db388d157f6279a4468e85ba6b456",
+      "target": "function:6b2182afad501ab27668f1049fa07437",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
@@ -5426,24 +5606,6 @@
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/normalize/buildGraph.ts->function:2bb958c84904af4c7436302bc02011a6:contains",
-      "source": "file:cli/src/normalize/buildGraph.ts",
-      "target": "function:2bb958c84904af4c7436302bc02011a6",
-      "kind": "contains",
-      "weight": 1,
-      "confidence": 1,
-      "resolvedBy": "structural"
-    },
-    {
-      "id": "file:cli/src/normalize/buildGraph.ts->function:4dea2a462999e9b230563757d96423ab:contains",
-      "source": "file:cli/src/normalize/buildGraph.ts",
-      "target": "function:4dea2a462999e9b230563757d96423ab",
-      "kind": "contains",
-      "weight": 1,
-      "confidence": 1,
-      "resolvedBy": "structural"
-    },
-    {
       "id": "file:cli/src/normalize/buildGraph.ts->function:61eebd48bdf8ee97093bad47ad788a70:contains",
       "source": "file:cli/src/normalize/buildGraph.ts",
       "target": "function:61eebd48bdf8ee97093bad47ad788a70",
@@ -5453,18 +5615,36 @@
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/normalize/buildGraph.ts->function:705225b2120de8c3ed192ce1b2204291:contains",
+      "id": "file:cli/src/normalize/buildGraph.ts->function:bd5e54a2059452c709b36de3db76552a:contains",
       "source": "file:cli/src/normalize/buildGraph.ts",
-      "target": "function:705225b2120de8c3ed192ce1b2204291",
+      "target": "function:bd5e54a2059452c709b36de3db76552a",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/normalize/buildGraph.ts->function:c519029bec203dc475707dbc6dd8f476:contains",
+      "id": "file:cli/src/normalize/buildGraph.ts->function:d33da28b6b05541c612f1f7e095054fc:contains",
       "source": "file:cli/src/normalize/buildGraph.ts",
-      "target": "function:c519029bec203dc475707dbc6dd8f476",
+      "target": "function:d33da28b6b05541c612f1f7e095054fc",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:cli/src/normalize/buildGraph.ts->function:e1ba2d81b86a0be86210b22b31ab8951:contains",
+      "source": "file:cli/src/normalize/buildGraph.ts",
+      "target": "function:e1ba2d81b86a0be86210b22b31ab8951",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:cli/src/normalize/buildGraph.ts->function:e31868e4af0a2cf220be1d8c254467f1:contains",
+      "source": "file:cli/src/normalize/buildGraph.ts",
+      "target": "function:e31868e4af0a2cf220be1d8c254467f1",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
@@ -5552,45 +5732,54 @@
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/scan/runCodegraph.ts->function:6df043db28d5c6967f91368686c357d4:contains",
+      "id": "file:cli/src/scan/runCodegraph.ts->function:150fe5ea76d4eac7275f3700ba34c6a8:contains",
       "source": "file:cli/src/scan/runCodegraph.ts",
-      "target": "function:6df043db28d5c6967f91368686c357d4",
+      "target": "function:150fe5ea76d4eac7275f3700ba34c6a8",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/scan/runCodegraph.ts->function:6fecb46d1b4ca36f587ac556400bde1f:contains",
+      "id": "file:cli/src/scan/runCodegraph.ts->function:4ac2af609c26dbe4cef81ede000f785b:contains",
       "source": "file:cli/src/scan/runCodegraph.ts",
-      "target": "function:6fecb46d1b4ca36f587ac556400bde1f",
+      "target": "function:4ac2af609c26dbe4cef81ede000f785b",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/scan/runCodegraph.ts->function:714af4fa948322771db9a438edbf034c:contains",
+      "id": "file:cli/src/scan/runCodegraph.ts->function:617ef67f7a1f5c42863e8643ba43e910:contains",
       "source": "file:cli/src/scan/runCodegraph.ts",
-      "target": "function:714af4fa948322771db9a438edbf034c",
+      "target": "function:617ef67f7a1f5c42863e8643ba43e910",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/scan/runCodegraph.ts->function:80d72d7079bd739d255aa4a94009dbe9:contains",
+      "id": "file:cli/src/scan/runCodegraph.ts->function:b9273d00529cf1f3d9367f184b2ba88c:contains",
       "source": "file:cli/src/scan/runCodegraph.ts",
-      "target": "function:80d72d7079bd739d255aa4a94009dbe9",
+      "target": "function:b9273d00529cf1f3d9367f184b2ba88c",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:cli/src/scan/runCodegraph.ts->function:89d253c5075e2dea72688a2f2d937087:contains",
+      "id": "file:cli/src/scan/runCodegraph.ts->function:c0c524476367150b45a8fe1179720e09:contains",
       "source": "file:cli/src/scan/runCodegraph.ts",
-      "target": "function:89d253c5075e2dea72688a2f2d937087",
+      "target": "function:c0c524476367150b45a8fe1179720e09",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:cli/src/security/paths.ts->function:1241afb0bd016a92b830a724016a840a:contains",
+      "source": "file:cli/src/security/paths.ts",
+      "target": "function:1241afb0bd016a92b830a724016a840a",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
@@ -5658,6 +5847,60 @@
       "weight": 1,
       "confidence": 0.95,
       "resolvedBy": "qualified-name"
+    },
+    {
+      "id": "file:cli/test/determinism.test.ts->file:cli/src/layout/dagreLayout.ts:imports",
+      "source": "file:cli/test/determinism.test.ts",
+      "target": "file:cli/src/layout/dagreLayout.ts",
+      "kind": "imports",
+      "weight": 1,
+      "confidence": 0.7,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "file:cli/test/determinism.test.ts->file:cli/src/normalize/buildGraph.ts:imports",
+      "source": "file:cli/test/determinism.test.ts",
+      "target": "file:cli/src/normalize/buildGraph.ts",
+      "kind": "imports",
+      "weight": 1,
+      "confidence": 0.7,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "file:cli/test/determinism.test.ts->file:cli/src/normalize/readDb.ts:imports",
+      "source": "file:cli/test/determinism.test.ts",
+      "target": "file:cli/src/normalize/readDb.ts",
+      "kind": "imports",
+      "weight": 1,
+      "confidence": 0.7,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "file:cli/test/determinism.test.ts->function:08acfd603e825c951254a6c1712bd700:contains",
+      "source": "file:cli/test/determinism.test.ts",
+      "target": "function:08acfd603e825c951254a6c1712bd700",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:cli/test/determinism.test.ts->function:3c736008cbbf476f4f3a77768d1e4747:contains",
+      "source": "file:cli/test/determinism.test.ts",
+      "target": "function:3c736008cbbf476f4f3a77768d1e4747",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:cli/test/determinism.test.ts->function:deee0df3edd5d5ab39daacb66eab1a48:contains",
+      "source": "file:cli/test/determinism.test.ts",
+      "target": "function:deee0df3edd5d5ab39daacb66eab1a48",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
     },
     {
       "id": "file:cli/test/export.test.ts->file:cli/src/export/escape.ts:imports",
@@ -5858,9 +6101,9 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "file:shared/src/canonicalize.ts->function:1d03b2f25b8be05a8337272291a17c25:contains",
+      "id": "file:shared/src/canonicalize.ts->function:38b38f0231f16ff6ee717aee9a873fb2:contains",
       "source": "file:shared/src/canonicalize.ts",
-      "target": "function:1d03b2f25b8be05a8337272291a17c25",
+      "target": "function:38b38f0231f16ff6ee717aee9a873fb2",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
@@ -5876,54 +6119,54 @@
       "resolvedBy": "structural"
     },
     {
-      "id": "file:shared/src/canonicalize.ts->function:645a442ad755ae4dc2458f1983f48630:contains",
+      "id": "file:shared/src/canonicalize.ts->function:5d2116fcd64ac2b66cfd266eb07d8161:contains",
       "source": "file:shared/src/canonicalize.ts",
-      "target": "function:645a442ad755ae4dc2458f1983f48630",
+      "target": "function:5d2116fcd64ac2b66cfd266eb07d8161",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:shared/src/canonicalize.ts->function:b0a28d11323be9e10fe65d42c48599d4:contains",
+      "id": "file:shared/src/canonicalize.ts->function:70af42ea489b6d3d2bbfe15c617c5f52:contains",
       "source": "file:shared/src/canonicalize.ts",
-      "target": "function:b0a28d11323be9e10fe65d42c48599d4",
+      "target": "function:70af42ea489b6d3d2bbfe15c617c5f52",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:shared/src/canonicalize.ts->function:bd5137ac3d8b61c4140d0bbd740aa9f3:contains",
+      "id": "file:shared/src/canonicalize.ts->function:9ffcbb7e810b3a6f3b5d1871e073d95d:contains",
       "source": "file:shared/src/canonicalize.ts",
-      "target": "function:bd5137ac3d8b61c4140d0bbd740aa9f3",
+      "target": "function:9ffcbb7e810b3a6f3b5d1871e073d95d",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:shared/src/canonicalize.ts->function:bfe4336fef8e1f6a23a2013ea1dfea16:contains",
+      "id": "file:shared/src/canonicalize.ts->function:a3c4eb49ce5d77944ef1a0ee13b0117c:contains",
       "source": "file:shared/src/canonicalize.ts",
-      "target": "function:bfe4336fef8e1f6a23a2013ea1dfea16",
+      "target": "function:a3c4eb49ce5d77944ef1a0ee13b0117c",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:shared/src/canonicalize.ts->function:e096002e955b7fbd54df90c12d9622fb:contains",
+      "id": "file:shared/src/canonicalize.ts->function:dfc0da15f8b24d05a3204411a0545734:contains",
       "source": "file:shared/src/canonicalize.ts",
-      "target": "function:e096002e955b7fbd54df90c12d9622fb",
+      "target": "function:dfc0da15f8b24d05a3204411a0545734",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
       "resolvedBy": "structural"
     },
     {
-      "id": "file:shared/src/canonicalize.ts->function:eeeab5f4182e29dcc0dad8c697fae144:contains",
+      "id": "file:shared/src/canonicalize.ts->function:dfd7ee4b9cacced118827edf86c6e7c4:contains",
       "source": "file:shared/src/canonicalize.ts",
-      "target": "function:eeeab5f4182e29dcc0dad8c697fae144",
+      "target": "function:dfd7ee4b9cacced118827edf86c6e7c4",
       "kind": "contains",
       "weight": 1,
       "confidence": 1,
@@ -6092,15 +6335,6 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:0620342d06ca135cfc4f05579320079f->function:1d03b2f25b8be05a8337272291a17c25:calls",
-      "source": "function:0620342d06ca135cfc4f05579320079f",
-      "target": "function:1d03b2f25b8be05a8337272291a17c25",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
-    },
-    {
       "id": "function:0620342d06ca135cfc4f05579320079f->function:37e975467a97b9ef382641fad856f720:calls",
       "source": "function:0620342d06ca135cfc4f05579320079f",
       "target": "function:37e975467a97b9ef382641fad856f720",
@@ -6128,6 +6362,15 @@
       "resolvedBy": "exact-match"
     },
     {
+      "id": "function:0620342d06ca135cfc4f05579320079f->function:70af42ea489b6d3d2bbfe15c617c5f52:calls",
+      "source": "function:0620342d06ca135cfc4f05579320079f",
+      "target": "function:70af42ea489b6d3d2bbfe15c617c5f52",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
       "id": "function:0620342d06ca135cfc4f05579320079f->function:d4639ec3fdff7624c3a993136c84b324:calls",
       "source": "function:0620342d06ca135cfc4f05579320079f",
       "target": "function:d4639ec3fdff7624c3a993136c84b324",
@@ -6137,94 +6380,13 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:1264ccaed82cb063bd2f0e384b22e457:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:1264ccaed82cb063bd2f0e384b22e457",
+      "id": "function:08acfd603e825c951254a6c1712bd700->function:deee0df3edd5d5ab39daacb66eab1a48:calls",
+      "source": "function:08acfd603e825c951254a6c1712bd700",
+      "target": "function:deee0df3edd5d5ab39daacb66eab1a48",
       "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:627d7d96bd0dadad77cff0cb8c617ebc:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:627d7d96bd0dadad77cff0cb8c617ebc",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
+      "weight": 5,
+      "confidence": 0.7,
       "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:714af4fa948322771db9a438edbf034c:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:714af4fa948322771db9a438edbf034c",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:782deb366f7c367027ff725743f1058c:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:782deb366f7c367027ff725743f1058c",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:80d72d7079bd739d255aa4a94009dbe9:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:80d72d7079bd739d255aa4a94009dbe9",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:b41d6e67edf7b6db89b006ae60dc6f29:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:b41d6e67edf7b6db89b006ae60dc6f29",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:cc77315e4451bdd102f65631b381633c:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:cc77315e4451bdd102f65631b381633c",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:d9f44d70e6b4af0516eb60a041cf6b07:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:d9f44d70e6b4af0516eb60a041cf6b07",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:e42b2d47e78d06144ab1f1d79d4bc004:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:e42b2d47e78d06144ab1f1d79d4bc004",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:087864777ae5902bae19310b3881a9d4->function:ef45783d3e5d41a7818bafdeacdaf15e:calls",
-      "source": "function:087864777ae5902bae19310b3881a9d4",
-      "target": "function:ef45783d3e5d41a7818bafdeacdaf15e",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
     },
     {
       "id": "function:1264ccaed82cb063bd2f0e384b22e457->function:3aff4637a79cdd55961465ff036c3c26:calls",
@@ -6234,15 +6396,6 @@
       "weight": 1,
       "confidence": 0.9,
       "resolvedBy": "import"
-    },
-    {
-      "id": "function:1264ccaed82cb063bd2f0e384b22e457->function:4dea2a462999e9b230563757d96423ab:calls",
-      "source": "function:1264ccaed82cb063bd2f0e384b22e457",
-      "target": "function:4dea2a462999e9b230563757d96423ab",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
     },
     {
       "id": "function:1264ccaed82cb063bd2f0e384b22e457->function:61eebd48bdf8ee97093bad47ad788a70:calls",
@@ -6272,15 +6425,6 @@
       "resolvedBy": "import"
     },
     {
-      "id": "function:1264ccaed82cb063bd2f0e384b22e457->function:c519029bec203dc475707dbc6dd8f476:calls",
-      "source": "function:1264ccaed82cb063bd2f0e384b22e457",
-      "target": "function:c519029bec203dc475707dbc6dd8f476",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
-    },
-    {
       "id": "function:1264ccaed82cb063bd2f0e384b22e457->function:c76a5e9e151d9e24870153ec2d9d140a:calls",
       "source": "function:1264ccaed82cb063bd2f0e384b22e457",
       "target": "function:c76a5e9e151d9e24870153ec2d9d140a",
@@ -6299,13 +6443,22 @@
       "resolvedBy": "import"
     },
     {
-      "id": "function:18a348103a785ae891482b5b0e03cc90->function:34e463bb064867543ec8fc0eaaf33d1f:calls",
-      "source": "function:18a348103a785ae891482b5b0e03cc90",
-      "target": "function:34e463bb064867543ec8fc0eaaf33d1f",
+      "id": "function:1264ccaed82cb063bd2f0e384b22e457->function:d33da28b6b05541c612f1f7e095054fc:calls",
+      "source": "function:1264ccaed82cb063bd2f0e384b22e457",
+      "target": "function:d33da28b6b05541c612f1f7e095054fc",
       "kind": "calls",
-      "weight": 2,
+      "weight": 1,
       "confidence": 0.9,
-      "resolvedBy": "import"
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:1264ccaed82cb063bd2f0e384b22e457->function:e31868e4af0a2cf220be1d8c254467f1:calls",
+      "source": "function:1264ccaed82cb063bd2f0e384b22e457",
+      "target": "function:e31868e4af0a2cf220be1d8c254467f1",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
     },
     {
       "id": "function:18a348103a785ae891482b5b0e03cc90->function:54a8c326de74a47c8b9b0312810bbb8c:calls",
@@ -6315,24 +6468,6 @@
       "weight": 1,
       "confidence": 0.9,
       "resolvedBy": "import"
-    },
-    {
-      "id": "function:18a348103a785ae891482b5b0e03cc90->function:96b8d37dfe7fbe73db89946a7d459b36:calls",
-      "source": "function:18a348103a785ae891482b5b0e03cc90",
-      "target": "function:96b8d37dfe7fbe73db89946a7d459b36",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "import"
-    },
-    {
-      "id": "function:1d03b2f25b8be05a8337272291a17c25->function:4b9c43d154f00edab43e8ae1769d9078:calls",
-      "source": "function:1d03b2f25b8be05a8337272291a17c25",
-      "target": "function:4b9c43d154f00edab43e8ae1769d9078",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
     },
     {
       "id": "function:258640d02e216be6b446935d1bada4ab->function:c76a5e9e151d9e24870153ec2d9d140a:calls",
@@ -6416,6 +6551,15 @@
       "resolvedBy": "import"
     },
     {
+      "id": "function:38b38f0231f16ff6ee717aee9a873fb2->function:dfc0da15f8b24d05a3204411a0545734:calls",
+      "source": "function:38b38f0231f16ff6ee717aee9a873fb2",
+      "target": "function:dfc0da15f8b24d05a3204411a0545734",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.7,
+      "resolvedBy": "exact-match"
+    },
+    {
       "id": "function:3aff4637a79cdd55961465ff036c3c26->function:69cea2034704303b868d0c93f6307763:calls",
       "source": "function:3aff4637a79cdd55961465ff036c3c26",
       "target": "function:69cea2034704303b868d0c93f6307763",
@@ -6432,6 +6576,33 @@
       "weight": 1,
       "confidence": 0.9,
       "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:3c736008cbbf476f4f3a77768d1e4747->function:1264ccaed82cb063bd2f0e384b22e457:calls",
+      "source": "function:3c736008cbbf476f4f3a77768d1e4747",
+      "target": "function:1264ccaed82cb063bd2f0e384b22e457",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:3c736008cbbf476f4f3a77768d1e4747->function:70af42ea489b6d3d2bbfe15c617c5f52:calls",
+      "source": "function:3c736008cbbf476f4f3a77768d1e4747",
+      "target": "function:70af42ea489b6d3d2bbfe15c617c5f52",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:3c736008cbbf476f4f3a77768d1e4747->function:d9f44d70e6b4af0516eb60a041cf6b07:calls",
+      "source": "function:3c736008cbbf476f4f3a77768d1e4747",
+      "target": "function:d9f44d70e6b4af0516eb60a041cf6b07",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
     },
     {
       "id": "function:3d86232222395107925c0f8a40b68edd->function:1d1bce2156d3ccf48f74a3078ff9db04:calls",
@@ -6452,6 +6623,105 @@
       "resolvedBy": "exact-match"
     },
     {
+      "id": "function:45025026e019f9e053649b6027cbe345->function:1241afb0bd016a92b830a724016a840a:calls",
+      "source": "function:45025026e019f9e053649b6027cbe345",
+      "target": "function:1241afb0bd016a92b830a724016a840a",
+      "kind": "calls",
+      "weight": 2,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:1264ccaed82cb063bd2f0e384b22e457:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:1264ccaed82cb063bd2f0e384b22e457",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:4ac2af609c26dbe4cef81ede000f785b:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:4ac2af609c26dbe4cef81ede000f785b",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:731185a97dc11bc85b2fb81868db780c:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:731185a97dc11bc85b2fb81868db780c",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:ac40aa0234fee6c2f1ca800efd712efc:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:ac40aa0234fee6c2f1ca800efd712efc",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:b57e29a89641606dc4b3dd4925317dd8:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:b57e29a89641606dc4b3dd4925317dd8",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:b9273d00529cf1f3d9367f184b2ba88c:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:b9273d00529cf1f3d9367f184b2ba88c",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:cc77315e4451bdd102f65631b381633c:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:cc77315e4451bdd102f65631b381633c",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:d9f44d70e6b4af0516eb60a041cf6b07:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:d9f44d70e6b4af0516eb60a041cf6b07",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:e42b2d47e78d06144ab1f1d79d4bc004:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:e42b2d47e78d06144ab1f1d79d4bc004",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:494438e5af4d84283d0e9b709c11fee7->function:ef45783d3e5d41a7818bafdeacdaf15e:calls",
+      "source": "function:494438e5af4d84283d0e9b709c11fee7",
+      "target": "function:ef45783d3e5d41a7818bafdeacdaf15e",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
       "id": "function:498d390e2c4ddaae0fd2bce0eece3365->function:5f4659d64fffd961231c4ed0bc2631e1:calls",
       "source": "function:498d390e2c4ddaae0fd2bce0eece3365",
       "target": "function:5f4659d64fffd961231c4ed0bc2631e1",
@@ -6461,29 +6731,29 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:4b9c43d154f00edab43e8ae1769d9078->function:645a442ad755ae4dc2458f1983f48630:calls",
-      "source": "function:4b9c43d154f00edab43e8ae1769d9078",
-      "target": "function:645a442ad755ae4dc2458f1983f48630",
-      "kind": "calls",
-      "weight": 4,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:4b9c43d154f00edab43e8ae1769d9078->function:bfe4336fef8e1f6a23a2013ea1dfea16:calls",
-      "source": "function:4b9c43d154f00edab43e8ae1769d9078",
-      "target": "function:bfe4336fef8e1f6a23a2013ea1dfea16",
+      "id": "function:4ac2af609c26dbe4cef81ede000f785b->function:150fe5ea76d4eac7275f3700ba34c6a8:calls",
+      "source": "function:4ac2af609c26dbe4cef81ede000f785b",
+      "target": "function:150fe5ea76d4eac7275f3700ba34c6a8",
       "kind": "calls",
       "weight": 1,
       "confidence": 0.9,
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:4dea2a462999e9b230563757d96423ab->function:2bb958c84904af4c7436302bc02011a6:calls",
-      "source": "function:4dea2a462999e9b230563757d96423ab",
-      "target": "function:2bb958c84904af4c7436302bc02011a6",
+      "id": "function:4b9c43d154f00edab43e8ae1769d9078->function:5d2116fcd64ac2b66cfd266eb07d8161:calls",
+      "source": "function:4b9c43d154f00edab43e8ae1769d9078",
+      "target": "function:5d2116fcd64ac2b66cfd266eb07d8161",
       "kind": "calls",
       "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:4b9c43d154f00edab43e8ae1769d9078->function:a3c4eb49ce5d77944ef1a0ee13b0117c:calls",
+      "source": "function:4b9c43d154f00edab43e8ae1769d9078",
+      "target": "function:a3c4eb49ce5d77944ef1a0ee13b0117c",
+      "kind": "calls",
+      "weight": 5,
       "confidence": 0.9,
       "resolvedBy": "exact-match"
     },
@@ -6504,15 +6774,6 @@
       "weight": 6,
       "confidence": 0.7,
       "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:54a8c326de74a47c8b9b0312810bbb8c->function:34e463bb064867543ec8fc0eaaf33d1f:calls",
-      "source": "function:54a8c326de74a47c8b9b0312810bbb8c",
-      "target": "function:34e463bb064867543ec8fc0eaaf33d1f",
-      "kind": "calls",
-      "weight": 3,
-      "confidence": 0.9,
-      "resolvedBy": "import"
     },
     {
       "id": "function:54a8c326de74a47c8b9b0312810bbb8c->function:b014284ca6f3b871140ad8426dcc56ea:calls",
@@ -6560,22 +6821,13 @@
       "resolvedBy": "import"
     },
     {
-      "id": "function:627d7d96bd0dadad77cff0cb8c617ebc->function:696b92c4a89be0196b4cf2caae14c488:calls",
-      "source": "function:627d7d96bd0dadad77cff0cb8c617ebc",
-      "target": "function:696b92c4a89be0196b4cf2caae14c488",
+      "id": "function:617ef67f7a1f5c42863e8643ba43e910->function:c0c524476367150b45a8fe1179720e09:calls",
+      "source": "function:617ef67f7a1f5c42863e8643ba43e910",
+      "target": "function:c0c524476367150b45a8fe1179720e09",
       "kind": "calls",
-      "weight": 5,
+      "weight": 1,
       "confidence": 0.9,
       "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:6acfaa0f9838c24ca30174f6513ef830->function:408db388d157f6279a4468e85ba6b456:calls",
-      "source": "function:6acfaa0f9838c24ca30174f6513ef830",
-      "target": "function:408db388d157f6279a4468e85ba6b456",
-      "kind": "calls",
-      "weight": 8,
-      "confidence": 0.9,
-      "resolvedBy": "import"
     },
     {
       "id": "function:6b90f3c421d7b363eba624e68c2f8e85->function:141f1a2135bd4dc2e704685792035ac1:calls",
@@ -6587,11 +6839,11 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:714af4fa948322771db9a438edbf034c->function:89d253c5075e2dea72688a2f2d937087:calls",
-      "source": "function:714af4fa948322771db9a438edbf034c",
-      "target": "function:89d253c5075e2dea72688a2f2d937087",
+      "id": "function:70af42ea489b6d3d2bbfe15c617c5f52->function:4b9c43d154f00edab43e8ae1769d9078:calls",
+      "source": "function:70af42ea489b6d3d2bbfe15c617c5f52",
+      "target": "function:4b9c43d154f00edab43e8ae1769d9078",
       "kind": "calls",
-      "weight": 3,
+      "weight": 1,
       "confidence": 0.9,
       "resolvedBy": "exact-match"
     },
@@ -6614,20 +6866,11 @@
       "resolvedBy": "unknown"
     },
     {
-      "id": "function:80d72d7079bd739d255aa4a94009dbe9->function:6df043db28d5c6967f91368686c357d4:calls",
-      "source": "function:80d72d7079bd739d255aa4a94009dbe9",
-      "target": "function:6df043db28d5c6967f91368686c357d4",
+      "id": "function:731185a97dc11bc85b2fb81868db780c->function:64d2072bdaceb1c21aa1144661266d4c:calls",
+      "source": "function:731185a97dc11bc85b2fb81868db780c",
+      "target": "function:64d2072bdaceb1c21aa1144661266d4c",
       "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:89d253c5075e2dea72688a2f2d937087->function:6fecb46d1b4ca36f587ac556400bde1f:calls",
-      "source": "function:89d253c5075e2dea72688a2f2d937087",
-      "target": "function:6fecb46d1b4ca36f587ac556400bde1f",
-      "kind": "calls",
-      "weight": 1,
+      "weight": 5,
       "confidence": 0.9,
       "resolvedBy": "exact-match"
     },
@@ -6650,8 +6893,8 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:141f1a2135bd4dc2e704685792035ac1:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:141f1a2135bd4dc2e704685792035ac1:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:141f1a2135bd4dc2e704685792035ac1",
       "kind": "calls",
       "weight": 1,
@@ -6659,8 +6902,8 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:18a348103a785ae891482b5b0e03cc90:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:18a348103a785ae891482b5b0e03cc90:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:18a348103a785ae891482b5b0e03cc90",
       "kind": "calls",
       "weight": 1,
@@ -6668,17 +6911,8 @@
       "resolvedBy": "import"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:1d03b2f25b8be05a8337272291a17c25:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
-      "target": "function:1d03b2f25b8be05a8337272291a17c25",
-      "kind": "calls",
-      "weight": 1,
-      "confidence": 0.9,
-      "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:37e975467a97b9ef382641fad856f720:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:37e975467a97b9ef382641fad856f720:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:37e975467a97b9ef382641fad856f720",
       "kind": "calls",
       "weight": 4,
@@ -6686,8 +6920,8 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:45025026e019f9e053649b6027cbe345:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:45025026e019f9e053649b6027cbe345:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:45025026e019f9e053649b6027cbe345",
       "kind": "calls",
       "weight": 2,
@@ -6695,8 +6929,8 @@
       "resolvedBy": "import"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:54a8c326de74a47c8b9b0312810bbb8c:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:54a8c326de74a47c8b9b0312810bbb8c:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:54a8c326de74a47c8b9b0312810bbb8c",
       "kind": "calls",
       "weight": 1,
@@ -6704,8 +6938,8 @@
       "resolvedBy": "import"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:6acfaa0f9838c24ca30174f6513ef830:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:6acfaa0f9838c24ca30174f6513ef830:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:6acfaa0f9838c24ca30174f6513ef830",
       "kind": "calls",
       "weight": 1,
@@ -6713,8 +6947,8 @@
       "resolvedBy": "import"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:6b90f3c421d7b363eba624e68c2f8e85:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:6b90f3c421d7b363eba624e68c2f8e85:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:6b90f3c421d7b363eba624e68c2f8e85",
       "kind": "calls",
       "weight": 1,
@@ -6722,8 +6956,17 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:b41d6e67edf7b6db89b006ae60dc6f29->function:d4639ec3fdff7624c3a993136c84b324:calls",
-      "source": "function:b41d6e67edf7b6db89b006ae60dc6f29",
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:70af42ea489b6d3d2bbfe15c617c5f52:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
+      "target": "function:70af42ea489b6d3d2bbfe15c617c5f52",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:b57e29a89641606dc4b3dd4925317dd8->function:d4639ec3fdff7624c3a993136c84b324:calls",
+      "source": "function:b57e29a89641606dc4b3dd4925317dd8",
       "target": "function:d4639ec3fdff7624c3a993136c84b324",
       "kind": "calls",
       "weight": 1,
@@ -6731,20 +6974,11 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:bd5137ac3d8b61c4140d0bbd740aa9f3->function:eeeab5f4182e29dcc0dad8c697fae144:calls",
-      "source": "function:bd5137ac3d8b61c4140d0bbd740aa9f3",
-      "target": "function:eeeab5f4182e29dcc0dad8c697fae144",
+      "id": "function:b9273d00529cf1f3d9367f184b2ba88c->function:617ef67f7a1f5c42863e8643ba43e910:calls",
+      "source": "function:b9273d00529cf1f3d9367f184b2ba88c",
+      "target": "function:617ef67f7a1f5c42863e8643ba43e910",
       "kind": "calls",
-      "weight": 1,
-      "confidence": 0.7,
-      "resolvedBy": "exact-match"
-    },
-    {
-      "id": "function:c519029bec203dc475707dbc6dd8f476->function:705225b2120de8c3ed192ce1b2204291:calls",
-      "source": "function:c519029bec203dc475707dbc6dd8f476",
-      "target": "function:705225b2120de8c3ed192ce1b2204291",
-      "kind": "calls",
-      "weight": 1,
+      "weight": 3,
       "confidence": 0.9,
       "resolvedBy": "exact-match"
     },
@@ -6794,6 +7028,15 @@
       "resolvedBy": "exact-match"
     },
     {
+      "id": "function:d33da28b6b05541c612f1f7e095054fc->function:e1ba2d81b86a0be86210b22b31ab8951:calls",
+      "source": "function:d33da28b6b05541c612f1f7e095054fc",
+      "target": "function:e1ba2d81b86a0be86210b22b31ab8951",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
       "id": "function:d492d543d9e98ed9729c418d958352cd->function:2a47e3963f1598ecdfa838775d506919:calls",
       "source": "function:d492d543d9e98ed9729c418d958352cd",
       "target": "function:2a47e3963f1598ecdfa838775d506919",
@@ -6821,12 +7064,21 @@
       "resolvedBy": "exact-match"
     },
     {
-      "id": "function:e096002e955b7fbd54df90c12d9622fb->function:eeeab5f4182e29dcc0dad8c697fae144:calls",
-      "source": "function:e096002e955b7fbd54df90c12d9622fb",
-      "target": "function:eeeab5f4182e29dcc0dad8c697fae144",
+      "id": "function:dfd7ee4b9cacced118827edf86c6e7c4->function:dfc0da15f8b24d05a3204411a0545734:calls",
+      "source": "function:dfd7ee4b9cacced118827edf86c6e7c4",
+      "target": "function:dfc0da15f8b24d05a3204411a0545734",
       "kind": "calls",
       "weight": 2,
       "confidence": 0.7,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:e31868e4af0a2cf220be1d8c254467f1->function:bd5e54a2059452c709b36de3db76552a:calls",
+      "source": "function:e31868e4af0a2cf220be1d8c254467f1",
+      "target": "function:bd5e54a2059452c709b36de3db76552a",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
       "resolvedBy": "exact-match"
     },
     {
@@ -6947,10 +7199,11 @@
         "file:cli/src/scan/runCodegraph.ts",
         "file:cli/test/buildGraph.test.ts",
         "file:cli/test/dedupeEdges.test.ts",
+        "file:cli/test/determinism.test.ts",
         "file:cli/test/resolveImports.test.ts",
         "file:cli/test/scan.integration.test.ts"
       ],
-      "size": 13,
+      "size": 14,
       "annotations": null
     },
     {
@@ -7034,26 +7287,27 @@
     },
     {
       "id": 10,
-      "label": "shared",
+      "label": "cli",
       "color": "#06b6d4",
       "nodeIds": [
         "function:0620342d06ca135cfc4f05579320079f",
+        "function:1241afb0bd016a92b830a724016a840a",
         "function:141f1a2135bd4dc2e704685792035ac1",
-        "function:1d03b2f25b8be05a8337272291a17c25",
+        "function:18a348103a785ae891482b5b0e03cc90",
         "function:288e192a058af72e8d37d15a94e828dd",
         "function:37e975467a97b9ef382641fad856f720",
+        "function:3c736008cbbf476f4f3a77768d1e4747",
         "function:442e6e6352552ffe86abbaf0340ead17",
         "function:45025026e019f9e053649b6027cbe345",
-        "function:4b9c43d154f00edab43e8ae1769d9078",
         "function:55d29385bcf5fd1d2d559db112920646",
-        "function:645a442ad755ae4dc2458f1983f48630",
+        "function:6acfaa0f9838c24ca30174f6513ef830",
         "function:6b90f3c421d7b363eba624e68c2f8e85",
+        "function:70af42ea489b6d3d2bbfe15c617c5f52",
         "function:8d6009c368650ea351740c40a3fe814c",
-        "function:b41d6e67edf7b6db89b006ae60dc6f29",
-        "function:bfe4336fef8e1f6a23a2013ea1dfea16",
+        "function:b57e29a89641606dc4b3dd4925317dd8",
         "function:d4639ec3fdff7624c3a993136c84b324"
       ],
-      "size": 15,
+      "size": 16,
       "annotations": null
     },
     {
@@ -7062,14 +7316,11 @@
       "color": "#a855f7",
       "nodeIds": [
         "function:06cbe4eeb9be9debf81851c9098d049d",
-        "function:18a348103a785ae891482b5b0e03cc90",
-        "function:34e463bb064867543ec8fc0eaaf33d1f",
         "function:54a8c326de74a47c8b9b0312810bbb8c",
-        "function:96b8d37dfe7fbe73db89946a7d459b36",
         "function:b014284ca6f3b871140ad8426dcc56ea",
         "function:bd127b6ae065e3b2655179d23d8de258"
       ],
-      "size": 7,
+      "size": 4,
       "annotations": null
     },
     {
@@ -7077,22 +7328,10 @@
       "label": "cli",
       "color": "#4f8cff",
       "nodeIds": [
-        "function:087864777ae5902bae19310b3881a9d4",
-        "function:627d7d96bd0dadad77cff0cb8c617ebc",
-        "function:696b92c4a89be0196b4cf2caae14c488",
-        "function:6df043db28d5c6967f91368686c357d4",
-        "function:6fecb46d1b4ca36f587ac556400bde1f",
-        "function:714af4fa948322771db9a438edbf034c",
-        "function:782deb366f7c367027ff725743f1058c",
-        "function:80d72d7079bd739d255aa4a94009dbe9",
-        "function:89d253c5075e2dea72688a2f2d937087",
-        "function:8abba1e6f9b8ed35c924739850b880af",
-        "function:cc77315e4451bdd102f65631b381633c",
-        "function:d9f44d70e6b4af0516eb60a041cf6b07",
-        "function:e42b2d47e78d06144ab1f1d79d4bc004",
-        "function:ef45783d3e5d41a7818bafdeacdaf15e"
+        "function:08acfd603e825c951254a6c1712bd700",
+        "function:deee0df3edd5d5ab39daacb66eab1a48"
       ],
-      "size": 14,
+      "size": 2,
       "annotations": null
     },
     {
@@ -7102,18 +7341,18 @@
       "nodeIds": [
         "function:1264ccaed82cb063bd2f0e384b22e457",
         "function:258640d02e216be6b446935d1bada4ab",
-        "function:2bb958c84904af4c7436302bc02011a6",
         "function:3aff4637a79cdd55961465ff036c3c26",
-        "function:4dea2a462999e9b230563757d96423ab",
         "function:61eebd48bdf8ee97093bad47ad788a70",
         "function:69cea2034704303b868d0c93f6307763",
         "function:6fdda9071ce31c5272a453fb214c6add",
-        "function:705225b2120de8c3ed192ce1b2204291",
         "function:9ff5021f00c89a14ab53ad1514295d92",
-        "function:c519029bec203dc475707dbc6dd8f476",
+        "function:bd5e54a2059452c709b36de3db76552a",
         "function:c76a5e9e151d9e24870153ec2d9d140a",
         "function:d1e44d6a9f73f7c8cd56ac30d501986e",
-        "function:d8dfb7d7339a489f26f360e0cc6cff73"
+        "function:d33da28b6b05541c612f1f7e095054fc",
+        "function:d8dfb7d7339a489f26f360e0cc6cff73",
+        "function:e1ba2d81b86a0be86210b22b31ab8951",
+        "function:e31868e4af0a2cf220be1d8c254467f1"
       ],
       "size": 14,
       "annotations": null
@@ -7123,9 +7362,22 @@
       "label": "cli",
       "color": "#10b981",
       "nodeIds": [
-        "function:161ff57ed921ad966937983dc4dc8b99"
+        "function:150fe5ea76d4eac7275f3700ba34c6a8",
+        "function:494438e5af4d84283d0e9b709c11fee7",
+        "function:4ac2af609c26dbe4cef81ede000f785b",
+        "function:617ef67f7a1f5c42863e8643ba43e910",
+        "function:64d2072bdaceb1c21aa1144661266d4c",
+        "function:731185a97dc11bc85b2fb81868db780c",
+        "function:8abba1e6f9b8ed35c924739850b880af",
+        "function:ac40aa0234fee6c2f1ca800efd712efc",
+        "function:b9273d00529cf1f3d9367f184b2ba88c",
+        "function:c0c524476367150b45a8fe1179720e09",
+        "function:cc77315e4451bdd102f65631b381633c",
+        "function:d9f44d70e6b4af0516eb60a041cf6b07",
+        "function:e42b2d47e78d06144ab1f1d79d4bc004",
+        "function:ef45783d3e5d41a7818bafdeacdaf15e"
       ],
-      "size": 1,
+      "size": 14,
       "annotations": null
     },
     {
@@ -7133,15 +7385,25 @@
       "label": "cli",
       "color": "#ef4444",
       "nodeIds": [
-        "function:17f25c38af26ff0179de7b015e79edf2"
+        "function:161ff57ed921ad966937983dc4dc8b99"
       ],
       "size": 1,
       "annotations": null
     },
     {
       "id": 16,
-      "label": "app",
+      "label": "cli",
       "color": "#8b5cf6",
+      "nodeIds": [
+        "function:17f25c38af26ff0179de7b015e79edf2"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 17,
+      "label": "app",
+      "color": "#ec4899",
       "nodeIds": [
         "function:1d1bce2156d3ccf48f74a3078ff9db04",
         "function:2a47e3963f1598ecdfa838775d506919",
@@ -7163,21 +7425,11 @@
       "annotations": null
     },
     {
-      "id": 17,
-      "label": "app",
-      "color": "#ec4899",
-      "nodeIds": [
-        "function:2ba06a4fd0b85dae072c22738efdcdc3"
-      ],
-      "size": 1,
-      "annotations": null
-    },
-    {
       "id": 18,
-      "label": "cli",
+      "label": "app",
       "color": "#14b8a6",
       "nodeIds": [
-        "function:388f4389fccab1b547a6e02310227347"
+        "function:2ba06a4fd0b85dae072c22738efdcdc3"
       ],
       "size": 1,
       "annotations": null
@@ -7187,16 +7439,49 @@
       "label": "cli",
       "color": "#f97316",
       "nodeIds": [
-        "function:408db388d157f6279a4468e85ba6b456",
-        "function:6acfaa0f9838c24ca30174f6513ef830"
+        "function:34e463bb064867543ec8fc0eaaf33d1f"
       ],
-      "size": 2,
+      "size": 1,
       "annotations": null
     },
     {
       "id": 20,
-      "label": "cli",
+      "label": "shared",
       "color": "#6366f1",
+      "nodeIds": [
+        "function:38b38f0231f16ff6ee717aee9a873fb2",
+        "function:dfc0da15f8b24d05a3204411a0545734",
+        "function:dfd7ee4b9cacced118827edf86c6e7c4"
+      ],
+      "size": 3,
+      "annotations": null
+    },
+    {
+      "id": 21,
+      "label": "cli",
+      "color": "#84cc16",
+      "nodeIds": [
+        "function:408db388d157f6279a4468e85ba6b456"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 22,
+      "label": "shared",
+      "color": "#06b6d4",
+      "nodeIds": [
+        "function:4b9c43d154f00edab43e8ae1769d9078",
+        "function:5d2116fcd64ac2b66cfd266eb07d8161",
+        "function:a3c4eb49ce5d77944ef1a0ee13b0117c"
+      ],
+      "size": 3,
+      "annotations": null
+    },
+    {
+      "id": 23,
+      "label": "cli",
+      "color": "#a855f7",
       "nodeIds": [
         "function:5a396396374bb5212551dd0d90f96d5a",
         "function:d70f0bc9de71359d1b00f422b1b2206e"
@@ -7205,9 +7490,19 @@
       "annotations": null
     },
     {
-      "id": 21,
+      "id": 24,
+      "label": "cli",
+      "color": "#4f8cff",
+      "nodeIds": [
+        "function:6b2182afad501ab27668f1049fa07437"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 25,
       "label": "app",
-      "color": "#84cc16",
+      "color": "#f59e0b",
       "nodeIds": [
         "function:885059def4f27d16f9bac565873efd79"
       ],
@@ -7215,55 +7510,13 @@
       "annotations": null
     },
     {
-      "id": 22,
-      "label": "app",
-      "color": "#06b6d4",
-      "nodeIds": [
-        "function:9cf94f30e4ee508644d4ea6efab64ae5"
-      ],
-      "size": 1,
-      "annotations": null
-    },
-    {
-      "id": 23,
-      "label": "shared",
-      "color": "#a855f7",
-      "nodeIds": [
-        "function:a9a40d1e944fc475a6c83c5e8b34ae9a"
-      ],
-      "size": 1,
-      "annotations": null
-    },
-    {
-      "id": 24,
-      "label": "app",
-      "color": "#4f8cff",
-      "nodeIds": [
-        "function:adb8c4f527e270e09c5ca0394adf5f9e"
-      ],
-      "size": 1,
-      "annotations": null
-    },
-    {
-      "id": 25,
-      "label": "shared",
-      "color": "#f59e0b",
-      "nodeIds": [
-        "function:b0a28d11323be9e10fe65d42c48599d4"
-      ],
-      "size": 1,
-      "annotations": null
-    },
-    {
       "id": 26,
-      "label": "shared",
+      "label": "cli",
       "color": "#10b981",
       "nodeIds": [
-        "function:bd5137ac3d8b61c4140d0bbd740aa9f3",
-        "function:e096002e955b7fbd54df90c12d9622fb",
-        "function:eeeab5f4182e29dcc0dad8c697fae144"
+        "function:96b8d37dfe7fbe73db89946a7d459b36"
       ],
-      "size": 3,
+      "size": 1,
       "annotations": null
     },
     {
@@ -7271,7 +7524,7 @@
       "label": "app",
       "color": "#ef4444",
       "nodeIds": [
-        "function:c152444acbe061a32605fadb2314b1dc"
+        "function:9cf94f30e4ee508644d4ea6efab64ae5"
       ],
       "size": 1,
       "annotations": null
@@ -7281,17 +7534,17 @@
       "label": "shared",
       "color": "#8b5cf6",
       "nodeIds": [
-        "function:ed9003c31893898a4563069679a7096c"
+        "function:9ffcbb7e810b3a6f3b5d1871e073d95d"
       ],
       "size": 1,
       "annotations": null
     },
     {
       "id": 29,
-      "label": "cli",
+      "label": "shared",
       "color": "#ec4899",
       "nodeIds": [
-        "function:f721f80a45148ec22c64e609fc8e7d15"
+        "function:a9a40d1e944fc475a6c83c5e8b34ae9a"
       ],
       "size": 1,
       "annotations": null
@@ -7301,7 +7554,57 @@
       "label": "app",
       "color": "#14b8a6",
       "nodeIds": [
+        "function:adb8c4f527e270e09c5ca0394adf5f9e"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 31,
+      "label": "app",
+      "color": "#f97316",
+      "nodeIds": [
+        "function:c152444acbe061a32605fadb2314b1dc"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 32,
+      "label": "shared",
+      "color": "#6366f1",
+      "nodeIds": [
+        "function:ed9003c31893898a4563069679a7096c"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 33,
+      "label": "cli",
+      "color": "#84cc16",
+      "nodeIds": [
+        "function:f721f80a45148ec22c64e609fc8e7d15"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 34,
+      "label": "app",
+      "color": "#06b6d4",
+      "nodeIds": [
         "hook:app/src/state/store.ts:useStore:32"
+      ],
+      "size": 1,
+      "annotations": null
+    },
+    {
+      "id": 35,
+      "label": "cli",
+      "color": "#a855f7",
+      "nodeIds": [
+        "hook:cli/src/bin.ts:useTargetCodegraph:29"
       ],
       "size": 1,
       "annotations": null

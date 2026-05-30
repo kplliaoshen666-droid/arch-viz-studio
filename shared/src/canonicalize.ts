@@ -18,7 +18,10 @@ export function canonicalizeGraph(graph: GraphFile): GraphFile {
   const nodes = graph.nodes.map(canonNode).sort((a, b) => cmp(a.id, b.id));
   const edges = graph.edges
     .map(canonEdge)
-    .sort((a, b) => cmp(a.source, b.source) || cmp(a.target, b.target) || cmp(a.kind, b.kind));
+    .sort(
+      (a, b) =>
+        cmp(a.source, b.source) || cmp(a.target, b.target) || cmp(a.kind, b.kind) || cmp(a.id, b.id),
+    );
   const clusters = graph.clusters.map(canonCluster).sort((a, b) => a.id - b.id);
   const counts: Counts = { nodes: nodes.length, edges: edges.length, clusters: clusters.length };
   return { meta: canonMeta(graph.meta, counts), nodes, edges, clusters };
