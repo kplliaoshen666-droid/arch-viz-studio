@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+.vite/
+*.log
+.DS_Store
+Thumbs.db
+
+# CodeGraph local index DB (never commit the SQLite cache)
+.codegraph/

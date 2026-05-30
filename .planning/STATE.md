@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-05-31)
 
 **Core value:** Point at any repo → get a high-quality, committable architecture picture a human can present and an AI agent can read+update — with zero non-permissive licenses in the client-facing chain.
-**Current focus:** Phase 1 — Shared Contract (the graph.json schema spine)
+**Current focus:** Phase 2 — CLI Extraction (scan a repo → graph.json)
 
 ## Current Position
 
-Phase: 1 of 5 (Shared Contract)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-05-31 — Roadmap created; 24/24 v1 requirements mapped across 5 phases
+Phase: 2 of 5 (CLI Extraction)
+Plan: Phase 1 complete (1/1)
+Status: Phase 1 shipped — tsc + 18 vitest tests GREEN; graph.json contract frozen in shared/
+Last activity: 2026-05-31 — Phase 1 Shared Contract committed (SCHEMA-01..04 satisfied)
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [██░░░░░░░░] 20%
 
 ## Performance Metrics
 

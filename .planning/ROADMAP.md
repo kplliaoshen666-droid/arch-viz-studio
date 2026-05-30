@@ -12,7 +12,7 @@ A strict, dependency-ordered build of a local code-architecture visualizer. The 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Shared Contract** - Freeze the versioned, deterministic, agent-updatable `graph.json` schema in `shared/` (the spine everything reads)
+- [x] **Phase 1: Shared Contract** - Freeze the versioned, deterministic, agent-updatable `graph.json` schema in `shared/` (the spine everything reads)
 - [ ] **Phase 2: CLI Extraction** - `arch-viz scan <repo>` runs CodeGraph, reads its SQLite DB, normalizes, and emits `graph.json` (highest-density security)
 - [ ] **Phase 3: Viewer Core** - 4-pane Vite/React/React Flow app renders the graph with anti-hairball clustering/collapse/filter/focus designed in
 - [ ] **Phase 4: Export & Handoff Bundle** - Deterministic SVG, ARCHITECTURE.md, self-contained HTML viewer, and optional PNG (XSS-critical)
@@ -32,7 +32,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: TBD
 
 Plans:
-- [ ] 01-01: TBD during plan-phase
+- [x] 01-01: shared/ schema contract — types, JSON Schema, validate(), canonicalize(), mergeAnnotations(), agent-facing README, fixtures; tsc + 18 vitest tests GREEN
 
 ### Phase 2: CLI Extraction
 **Goal**: `arch-viz scan <repo>` is the only writer of `graph.json` — it syncs CodeGraph, reads `.codegraph/codegraph.db` readonly, does all heavy deterministic work (dedupe→weight, seeded Louvain clusters, metrics, dagre coordinates), stamps provenance, and atomically writes a validated `graph.json` into `<repo>/docs/architecture/`, all under hard subprocess/path security.
@@ -101,7 +101,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Shared Contract | 0/TBD | Not started | - |
+| 1. Shared Contract | 1/1 | Complete | 2026-05-31 |
 | 2. CLI Extraction | 0/TBD | Not started | - |
 | 3. Viewer Core | 0/TBD | Not started | - |
 | 4. Export & Handoff Bundle | 0/TBD | Not started | - |

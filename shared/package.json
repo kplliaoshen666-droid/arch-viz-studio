@@ -1,0 +1,19 @@
+{
+  "name": "@arch-viz/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "graph.json contract: TypeScript types, JSON Schema, validate(), canonicalize(), SCHEMA_VERSION. Single source of truth for cli/, app/, and AI agents.",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+# Deterministic line endings across Windows / CI / teammates.
+# graph.json determinism (SCHEMA-02) depends on stable bytes.
+* text=auto eol=lf
+*.png binary
+*.ico binary

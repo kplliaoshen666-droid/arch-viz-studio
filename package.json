@@ -1,0 +1,32 @@
+{
+  "name": "arch-viz-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local CodeGraph-backed code-architecture visualizer: a CLI + offline viewer that emits a committable, agent-readable docs/architecture/ bundle for any repo.",
+  "license": "MIT",
+  "workspaces": [
+    "shared",
+    "cli",
+    "app"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p app/tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "arch-viz": "tsx cli/src/bin.ts",
+    "dev:app": "vite --config app/vite.config.ts",
+    "build:app": "vite build --config app/vite.config.ts",
+    "preview:app": "vite preview --config app/vite.config.ts",
+    "lint:licenses": "node scripts/check-licenses.mjs"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7"
+  }
+}

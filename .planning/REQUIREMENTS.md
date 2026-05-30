@@ -76,10 +76,10 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SCHEMA-01 | Phase 1 | Pending |
-| SCHEMA-02 | Phase 1 | Pending |
-| SCHEMA-03 | Phase 1 | Pending |
-| SCHEMA-04 | Phase 1 | Pending |
+| SCHEMA-01 | Phase 1 | Done |
+| SCHEMA-02 | Phase 1 | Done |
+| SCHEMA-03 | Phase 1 | Done |
+| SCHEMA-04 | Phase 1 | Done |
 | CLI-01 | Phase 2 | Pending |
 | CLI-02 | Phase 2 | Pending |
 | CLI-03 | Phase 2 | Pending |

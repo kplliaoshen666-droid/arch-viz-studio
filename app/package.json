@@ -1,0 +1,11 @@
+{
+  "name": "@arch-viz/app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline 4-pane viewer for graph.json. (Phase 3 builds out the Vite/React/React Flow app.)",
+  "license": "MIT",
+  "dependencies": {
+    "@arch-viz/shared": "*"
+  }
+}
