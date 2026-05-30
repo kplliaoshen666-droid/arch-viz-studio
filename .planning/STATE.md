@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-05-31)
 
 **Core value:** Point at any repo → get a high-quality, committable architecture picture a human can present and an AI agent can read+update — with zero non-permissive licenses in the client-facing chain.
-**Current focus:** Phase 3 — Viewer Core (4-pane Vite/React/React Flow app)
+**Current focus:** Phase 4 — Export & Handoff Bundle (SVG / ARCHITECTURE.md / self-contained HTML)
 
 ## Current Position
 
-Phase: 3 of 5 (Viewer Core)
-Plan: Phases 1-2 complete (2/2)
-Status: Phase 2 shipped — 39 tests GREEN, npm audit clean; real `arch-viz scan` emits a valid, byte-identical graph.json
-Last activity: 2026-05-31 — Phase 2 CLI Extraction committed (CLI-01..05, SEC-02 satisfied)
+Phase: 4 of 5 (Export & Handoff Bundle)
+Plan: Phases 1-3 complete (3/3)
+Status: Phase 3 shipped — vite build + 47 tests GREEN (computeView anti-hairball + mermaid escaping verified). NOTE: in-browser visual render not screenshotted this session (Chrome extension not connected) — run `npm run dev:app` to view, or open the Phase 4 self-contained HTML.
+Last activity: 2026-05-31 — Phase 3 Viewer Core committed (VIEW-01..06)
 
-Progress: [████░░░░░░] 40%
+Progress: [██████░░░░] 60%
 
 ## Performance Metrics
 

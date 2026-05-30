@@ -1,0 +1,167 @@
+@import 'tailwindcss';
+
+/* ─── design tokens ─────────────────────────────────────────────────────── */
+:root {
+  --surface: #f6f6f4;
+  --panel: #ffffff;
+  --panel-2: #fbfbfa;
+  --ink: #1c1c1f;
+  --ink-soft: #45454b;
+  --muted: #8a8a93;
+  --line: #e7e6e3;
+  --line-strong: #d8d7d3;
+  --accent: #3b6fe0;
+  --accent-soft: #eaf0fe;
+  --shadow: 0 1px 2px rgba(24, 24, 27, 0.04), 0 8px 24px -12px rgba(24, 24, 27, 0.12);
+  --radius: 12px;
+  --mono: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace;
+  --sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 13.5px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.mono { font-family: var(--mono); }
+
+/* ─── app shell ─────────────────────────────────────────────────────────── */
+.av-app { display: flex; flex-direction: column; height: 100%; }
+.av-main { display: flex; flex: 1; min-height: 0; }
+.av-col { display: flex; flex-direction: column; min-height: 0; background: var(--panel); }
+.av-col-left { width: 264px; border-right: 1px solid var(--line); }
+.av-col-center { flex: 1; min-width: 0; background: var(--panel-2); position: relative; }
+.av-col-right { width: 340px; border-left: 1px solid var(--line); }
+.av-bottom { border-top: 1px solid var(--line); background: var(--panel); }
+
+/* ─── top bar ───────────────────────────────────────────────────────────── */
+.av-topbar {
+  display: flex; align-items: center; gap: 16px;
+  padding: 10px 18px; background: var(--panel);
+  border-bottom: 1px solid var(--line);
+}
+.av-brand { display: flex; align-items: baseline; gap: 9px; }
+.av-brand-mark { font-weight: 700; letter-spacing: -0.02em; font-size: 15px; }
+.av-brand-dot { color: var(--accent); }
+.av-repo { font-family: var(--mono); font-size: 12.5px; color: var(--ink-soft);
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 7px; padding: 2px 9px; }
+.av-stats { display: flex; gap: 14px; color: var(--muted); font-size: 12px; }
+.av-stats b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.av-spacer { flex: 1; }
+.av-search {
+  width: 230px; font-family: var(--mono); font-size: 12.5px;
+  padding: 6px 11px; border: 1px solid var(--line-strong); border-radius: 8px;
+  background: var(--panel-2); color: var(--ink); outline: none; transition: border-color .15s, box-shadow .15s;
+}
+.av-search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); background: #fff; }
+.av-btn {
+  font-size: 12px; padding: 6px 11px; border: 1px solid var(--line-strong);
+  border-radius: 8px; background: var(--panel); color: var(--ink-soft); cursor: pointer;
+  transition: background .12s, border-color .12s, color .12s; white-space: nowrap;
+}
+.av-btn:hover { background: var(--panel-2); border-color: var(--muted); color: var(--ink); }
+.av-btn-accent { background: var(--accent); border-color: var(--accent); color: #fff; }
+.av-btn-accent:hover { background: #3563cc; border-color: #3563cc; color: #fff; }
+
+/* ─── pane chrome ───────────────────────────────────────────────────────── */
+.av-pane-head {
+  display: flex; align-items: center; gap: 8px;
+  padding: 9px 14px; border-bottom: 1px solid var(--line);
+  font-size: 10.5px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted);
+  background: var(--panel); position: sticky; top: 0; z-index: 1;
+}
+.av-pane-head .count { margin-left: auto; font-weight: 600; color: var(--ink-soft);
+  font-variant-numeric: tabular-nums; letter-spacing: 0; text-transform: none; }
+.av-scroll { overflow: auto; flex: 1; min-height: 0; }
+.av-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+.av-scroll::-webkit-scrollbar-thumb { background: #deddda; border: 3px solid var(--panel); border-radius: 8px; }
+.av-scroll::-webkit-scrollbar-thumb:hover { background: #cfcecb; }
+
+/* ─── tree pane ─────────────────────────────────────────────────────────── */
+.av-tree { padding: 6px 6px 16px; }
+.av-tree-group { margin-bottom: 4px; }
+.av-tree-dir {
+  display: flex; align-items: center; gap: 7px; padding: 5px 8px; border-radius: 7px;
+  font-family: var(--mono); font-size: 12px; color: var(--ink-soft); cursor: pointer; user-select: none;
+}
+.av-tree-dir:hover { background: var(--panel-2); }
+.av-tree-row {
+  display: flex; align-items: center; gap: 8px; padding: 4px 8px 4px 24px; border-radius: 7px;
+  cursor: pointer; font-size: 12.5px; color: var(--ink-soft);
+}
+.av-tree-row:hover { background: var(--panel-2); }
+.av-tree-row.sel { background: var(--accent-soft); color: var(--ink); }
+.av-tree-name { font-family: var(--mono); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.av-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.av-kind {
+  font-size: 9px; font-weight: 700; width: 15px; text-align: center; flex: none;
+  color: var(--muted); border: 1px solid var(--line-strong); border-radius: 4px; padding: 1px 0;
+}
+
+/* ─── graph nodes (React Flow) ──────────────────────────────────────────── */
+.rf-node {
+  background: var(--panel); border: 1px solid var(--line-strong); border-left-width: 4px;
+  border-radius: 9px; padding: 7px 11px; min-width: 78px; max-width: 240px;
+  box-shadow: var(--shadow); cursor: pointer; transition: box-shadow .15s, transform .05s, border-color .15s;
+}
+.rf-node:hover { box-shadow: 0 2px 4px rgba(24,24,27,.06), 0 12px 28px -12px rgba(24,24,27,.22); }
+.rf-node.sel { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
+.rf-node .nm { font-family: var(--mono); font-size: 12.5px; font-weight: 600; color: var(--ink);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rf-node .sub { font-size: 10.5px; color: var(--muted); margin-top: 1px; display: flex; gap: 6px; align-items: center; }
+.rf-node-cluster {
+  background: var(--panel); border: 1px dashed var(--line-strong); border-radius: 14px;
+  padding: 12px 16px; min-width: 130px; text-align: center; box-shadow: var(--shadow); cursor: pointer;
+  transition: box-shadow .15s, border-color .15s;
+}
+.rf-node-cluster:hover { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow); }
+.rf-node-cluster .cl { font-weight: 700; font-size: 13px; display: flex; align-items: center; gap: 8px; justify-content: center; }
+.rf-node-cluster .ct { font-size: 11px; color: var(--muted); margin-top: 3px; }
+
+/* ─── detail pane ───────────────────────────────────────────────────────── */
+.av-detail { padding: 16px; }
+.av-detail-title { font-family: var(--mono); font-size: 16px; font-weight: 700; letter-spacing: -0.01em;
+  word-break: break-word; display: flex; align-items: center; gap: 9px; }
+.av-detail-path { font-family: var(--mono); font-size: 11.5px; color: var(--muted); margin-top: 3px; word-break: break-all; }
+.av-badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.av-badge { font-size: 10.5px; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+  background: var(--panel-2); border: 1px solid var(--line); color: var(--ink-soft); }
+.av-badge.on { background: var(--accent-soft); border-color: #cbdcfd; color: #2c52b0; }
+.av-metrics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 14px 0; }
+.av-metric { background: var(--panel-2); border: 1px solid var(--line); border-radius: 9px; padding: 9px 11px; }
+.av-metric .v { font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.av-metric .k { font-size: 10.5px; color: var(--muted); margin-top: 1px; }
+.av-section-h { font-size: 10.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted); margin: 16px 0 7px; }
+.av-rel { display: flex; align-items: center; gap: 8px; padding: 5px 8px; border-radius: 7px; cursor: pointer;
+  font-family: var(--mono); font-size: 12px; color: var(--ink-soft); }
+.av-rel:hover { background: var(--panel-2); color: var(--ink); }
+.av-rel .w { margin-left: auto; font-size: 10px; color: var(--muted); }
+.av-empty { color: var(--muted); font-size: 12.5px; padding: 24px 16px; text-align: center; }
+.av-note { background: #fffbeb; border: 1px solid #fde68a; border-radius: 9px; padding: 10px 12px;
+  font-size: 12px; color: #854d0e; margin-top: 14px; }
+
+/* ─── diagram (bottom) pane ─────────────────────────────────────────────── */
+.av-diagram { display: flex; height: 210px; }
+.av-diagram-src { width: 42%; border-right: 1px solid var(--line); overflow: auto;
+  font-family: var(--mono); font-size: 11.5px; white-space: pre; padding: 12px 14px; color: var(--ink-soft);
+  background: var(--panel-2); }
+.av-diagram-preview { flex: 1; overflow: auto; display: flex; align-items: center; justify-content: center; padding: 12px; }
+.av-diagram-preview svg { max-width: 100%; height: auto; }
+
+/* ─── misc ──────────────────────────────────────────────────────────────── */
+.av-center { display: flex; align-items: center; justify-content: center; height: 100%; flex-direction: column; gap: 10px; color: var(--muted); }
+.av-banner { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); z-index: 5;
+  background: #fffbeb; border: 1px solid #fcd34d; color: #854d0e; padding: 7px 14px; border-radius: 9px;
+  font-size: 12px; box-shadow: var(--shadow); }
+.av-chip-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.av-toggle { font-size: 11px; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--line-strong);
+  background: var(--panel); color: var(--muted); cursor: pointer; user-select: none; }
+.av-toggle.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.react-flow__attribution { display: none; }

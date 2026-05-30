@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "schemaVersion": "1.0.0",
+    "generatedAt": "2026-05-30T16:45:27.356Z",
+    "sourceRepo": "sample-repo",
+    "sourceRepoHash": "git:eba3cd50ca8c2fc02cf1658731795776cc6e1ef1",
+    "generator": {
+      "name": "arch-viz",
+      "version": "0.1.0",
+      "engine": "codegraph",
+      "engineVersion": "0.9.4",
+      "codegraphSchema": 4,
+      "codegraphDbHash": "sha256:109349f927b4c66c97903fdc16ffe67919e9b2e5e2c22b3c1fceee585599f6ef"
+    },
+    "counts": {
+      "nodes": 9,
+      "edges": 14,
+      "clusters": 3
+    },
+    "layout": {
+      "algo": "dagre",
+      "rankdir": "LR",
+      "version": 1
+    },
+    "clustering": {
+      "algo": "louvain",
+      "seed": 42,
+      "resolution": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "file:index.ts",
+      "kind": "file",
+      "label": "index.ts",
+      "qualifiedName": "index.ts",
+      "path": "index.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 1,
+        "endLine": 12
+      },
+      "cluster": 0,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 12,
+        "fanIn": 0,
+        "fanOut": 1,
+        "descendants": 1
+      },
+      "position": {
+        "x": 70,
+        "y": 229
+      },
+      "annotations": null
+    },
+    {
+      "id": "file:math.ts",
+      "kind": "file",
+      "label": "math.ts",
+      "qualifiedName": "math.ts",
+      "path": "math.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 1,
+        "endLine": 12
+      },
+      "cluster": 0,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 12,
+        "fanIn": 0,
+        "fanOut": 0,
+        "descendants": 3
+      },
+      "position": {
+        "x": 248.5,
+        "y": 384
+      },
+      "annotations": null
+    },
+    {
+      "id": "file:util.ts",
+      "kind": "file",
+      "label": "util.ts",
+      "qualifiedName": "util.ts",
+      "path": "util.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 1,
+        "endLine": 11
+      },
+      "cluster": 0,
+      "flags": {
+        "exported": false,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 11,
+        "fanIn": 0,
+        "fanOut": 0,
+        "descendants": 2
+      },
+      "position": {
+        "x": 248.5,
+        "y": 304
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:45e84177c073b6b5140586c24a5a886d",
+      "kind": "function",
+      "label": "double",
+      "qualifiedName": "double",
+      "path": "math.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 5,
+        "endLine": 7
+      },
+      "cluster": 1,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 3,
+        "fanIn": 1,
+        "fanOut": 1,
+        "descendants": 0
+      },
+      "position": {
+        "x": 421,
+        "y": 284
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:4f90174701499f4cd939b41a28a60421",
+      "kind": "function",
+      "label": "log",
+      "qualifiedName": "log",
+      "path": "util.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 1,
+        "endLine": 4
+      },
+      "cluster": 2,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 4,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 421,
+        "y": 124
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:85de59418976be8d652d412ba32bec64",
+      "kind": "function",
+      "label": "square",
+      "qualifiedName": "square",
+      "path": "math.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 9,
+        "endLine": 11
+      },
+      "cluster": 2,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 3,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 421,
+        "y": 204
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:8e295d454cb5b6919ece193b14c8a82b",
+      "kind": "function",
+      "label": "repeat",
+      "qualifiedName": "repeat",
+      "path": "util.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 6,
+        "endLine": 10
+      },
+      "cluster": 2,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 5,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 421,
+        "y": 44
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:a17cf2498eadcfeb1afc9824feb782ea",
+      "kind": "function",
+      "label": "main",
+      "qualifiedName": "main",
+      "path": "index.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 4,
+        "endLine": 9
+      },
+      "cluster": 2,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 6,
+        "fanIn": 1,
+        "fanOut": 4,
+        "descendants": 0
+      },
+      "position": {
+        "x": 248.5,
+        "y": 124
+      },
+      "annotations": null
+    },
+    {
+      "id": "function:e61127a0a411e5816afd26e0296ab801",
+      "kind": "function",
+      "label": "add",
+      "qualifiedName": "add",
+      "path": "math.ts",
+      "lang": "typescript",
+      "span": {
+        "startLine": 1,
+        "endLine": 3
+      },
+      "cluster": 1,
+      "flags": {
+        "exported": true,
+        "async": false,
+        "static": false,
+        "abstract": false
+      },
+      "metrics": {
+        "loc": 3,
+        "fanIn": 1,
+        "fanOut": 0,
+        "descendants": 0
+      },
+      "position": {
+        "x": 591,
+        "y": 314
+      },
+      "annotations": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "file:index.ts->file:math.ts:imports",
+      "source": "file:index.ts",
+      "target": "file:math.ts",
+      "kind": "imports",
+      "weight": 1,
+      "confidence": 0.95,
+      "resolvedBy": "qualified-name"
+    },
+    {
+      "id": "file:index.ts->file:util.ts:imports",
+      "source": "file:index.ts",
+      "target": "file:util.ts",
+      "kind": "imports",
+      "weight": 1,
+      "confidence": 0.95,
+      "resolvedBy": "qualified-name"
+    },
+    {
+      "id": "file:index.ts->function:a17cf2498eadcfeb1afc9824feb782ea:calls",
+      "source": "file:index.ts",
+      "target": "function:a17cf2498eadcfeb1afc9824feb782ea",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "file:index.ts->function:a17cf2498eadcfeb1afc9824feb782ea:contains",
+      "source": "file:index.ts",
+      "target": "function:a17cf2498eadcfeb1afc9824feb782ea",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:math.ts->function:45e84177c073b6b5140586c24a5a886d:contains",
+      "source": "file:math.ts",
+      "target": "function:45e84177c073b6b5140586c24a5a886d",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:math.ts->function:85de59418976be8d652d412ba32bec64:contains",
+      "source": "file:math.ts",
+      "target": "function:85de59418976be8d652d412ba32bec64",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:math.ts->function:e61127a0a411e5816afd26e0296ab801:contains",
+      "source": "file:math.ts",
+      "target": "function:e61127a0a411e5816afd26e0296ab801",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:util.ts->function:4f90174701499f4cd939b41a28a60421:contains",
+      "source": "file:util.ts",
+      "target": "function:4f90174701499f4cd939b41a28a60421",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "file:util.ts->function:8e295d454cb5b6919ece193b14c8a82b:contains",
+      "source": "file:util.ts",
+      "target": "function:8e295d454cb5b6919ece193b14c8a82b",
+      "kind": "contains",
+      "weight": 1,
+      "confidence": 1,
+      "resolvedBy": "structural"
+    },
+    {
+      "id": "function:45e84177c073b6b5140586c24a5a886d->function:e61127a0a411e5816afd26e0296ab801:calls",
+      "source": "function:45e84177c073b6b5140586c24a5a886d",
+      "target": "function:e61127a0a411e5816afd26e0296ab801",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "exact-match"
+    },
+    {
+      "id": "function:a17cf2498eadcfeb1afc9824feb782ea->function:45e84177c073b6b5140586c24a5a886d:calls",
+      "source": "function:a17cf2498eadcfeb1afc9824feb782ea",
+      "target": "function:45e84177c073b6b5140586c24a5a886d",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:a17cf2498eadcfeb1afc9824feb782ea->function:4f90174701499f4cd939b41a28a60421:calls",
+      "source": "function:a17cf2498eadcfeb1afc9824feb782ea",
+      "target": "function:4f90174701499f4cd939b41a28a60421",
+      "kind": "calls",
+      "weight": 2,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:a17cf2498eadcfeb1afc9824feb782ea->function:85de59418976be8d652d412ba32bec64:calls",
+      "source": "function:a17cf2498eadcfeb1afc9824feb782ea",
+      "target": "function:85de59418976be8d652d412ba32bec64",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    },
+    {
+      "id": "function:a17cf2498eadcfeb1afc9824feb782ea->function:8e295d454cb5b6919ece193b14c8a82b:calls",
+      "source": "function:a17cf2498eadcfeb1afc9824feb782ea",
+      "target": "function:8e295d454cb5b6919ece193b14c8a82b",
+      "kind": "calls",
+      "weight": 1,
+      "confidence": 0.9,
+      "resolvedBy": "import"
+    }
+  ],
+  "clusters": [
+    {
+      "id": 0,
+      "label": "index.ts",
+      "color": "#4f8cff",
+      "nodeIds": [
+        "file:index.ts",
+        "file:math.ts",
+        "file:util.ts"
+      ],
+      "size": 3,
+      "annotations": null
+    },
+    {
+      "id": 1,
+      "label": "double",
+      "color": "#f59e0b",
+      "nodeIds": [
+        "function:45e84177c073b6b5140586c24a5a886d",
+        "function:e61127a0a411e5816afd26e0296ab801"
+      ],
+      "size": 2,
+      "annotations": null
+    },
+    {
+      "id": 2,
+      "label": "main",
+      "color": "#10b981",
+      "nodeIds": [
+        "function:4f90174701499f4cd939b41a28a60421",
+        "function:85de59418976be8d652d412ba32bec64",
+        "function:8e295d454cb5b6919ece193b14c8a82b",
+        "function:a17cf2498eadcfeb1afc9824feb782ea"
+      ],
+      "size": 4,
+      "annotations": null
+    }
+  ]
+}

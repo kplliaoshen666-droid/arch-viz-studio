@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Shared Contract** - Freeze the versioned, deterministic, agent-updatable `graph.json` schema in `shared/` (the spine everything reads)
 - [x] **Phase 2: CLI Extraction** - `arch-viz scan <repo>` runs CodeGraph, reads its SQLite DB, normalizes, and emits `graph.json` (highest-density security)
-- [ ] **Phase 3: Viewer Core** - 4-pane Vite/React/React Flow app renders the graph with anti-hairball clustering/collapse/filter/focus designed in
+- [x] **Phase 3: Viewer Core** - 4-pane Vite/React/React Flow app renders the graph with anti-hairball clustering/collapse/filter/focus designed in
 - [ ] **Phase 4: Export & Handoff Bundle** - Deterministic SVG, ARCHITECTURE.md, self-contained HTML viewer, and optional PNG (XSS-critical)
 - [ ] **Phase 5: Reusability + Dogfood** - Project-agnostic reuse, the license-allowlist ship gate, and ship-to-validate by visualizing self + one mature repo
 
@@ -63,7 +63,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 03-01: TBD during plan-phase
+- [x] 03-01: Vite+React+React Flow 4-pane app (tree · graph · inspector · mermaid) — anti-hairball cluster collapse/expand/filter/threshold, search→select→recenter, escaping boundary; vite build + 47 tests GREEN
 
 ### Phase 4: Export & Handoff Bundle
 **Goal**: Turn the interactive view into the committable, client-presentable half of the Core Value — a deterministic hand-rolled `architecture.svg`, an `ARCHITECTURE.md` narrative with an embedded diagram and a visible static-extraction caveats block, a self-contained `viz/index.html` (graph.json inlined as a `<script>` blob, read-only viewer, opens with no install), and an optional PNG — with all code-derived text adversarially escaped.
@@ -103,6 +103,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Shared Contract | 1/1 | Complete | 2026-05-31 |
 | 2. CLI Extraction | 1/1 | Complete | 2026-05-31 |
-| 3. Viewer Core | 0/TBD | Not started | - |
+| 3. Viewer Core | 1/1 | Complete | 2026-05-31 |
 | 4. Export & Handoff Bundle | 0/TBD | Not started | - |
 | 5. Reusability + Dogfood | 0/TBD | Not started | - |
