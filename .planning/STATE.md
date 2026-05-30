@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-05-31)
 
 **Core value:** Point at any repo → get a high-quality, committable architecture picture a human can present and an AI agent can read+update — with zero non-permissive licenses in the client-facing chain.
-**Current focus:** Phase 4 — Export & Handoff Bundle (SVG / ARCHITECTURE.md / self-contained HTML)
+**Current focus:** Phase 5 — Reusability + Dogfood + license-allowlist ship gate
 
 ## Current Position
 
-Phase: 4 of 5 (Export & Handoff Bundle)
-Plan: Phases 1-3 complete (3/3)
-Status: Phase 3 shipped — vite build + 47 tests GREEN (computeView anti-hairball + mermaid escaping verified). NOTE: in-browser visual render not screenshotted this session (Chrome extension not connected) — run `npm run dev:app` to view, or open the Phase 4 self-contained HTML.
-Last activity: 2026-05-31 — Phase 3 Viewer Core committed (VIEW-01..06)
+Phase: 5 of 5 (Reusability + Dogfood)
+Plan: Phases 1-4 complete (4/4)
+Status: Phase 4 shipped — `arch-viz scan` now emits the full committable bundle (graph.json + architecture.svg + ARCHITECTURE.md + viz/index.html, 18KB self-contained), all byte-identical on re-scan; 57 tests GREEN incl. adversarial XSS escaping. NOTE: in-browser render + PNG export not screenshotted (Chrome ext not connected) — verify via `npm run dev:app`.
+Last activity: 2026-05-31 — Phase 4 Export & Handoff Bundle committed (EXPORT-01..05)
 
-Progress: [██████░░░░] 60%
+Progress: [████████░░] 80%
 
 ## Performance Metrics
 

@@ -4,6 +4,7 @@ import {
   BackgroundVariant,
   Controls,
   MiniMap,
+  Panel,
   ReactFlow,
   ReactFlowProvider,
   useReactFlow,
@@ -13,6 +14,7 @@ import {
 import { useStore, WARN_THRESHOLD } from '../state/store';
 import type { ViewModel, ArchNodeData, ClusterNodeData } from '../derive/viewModel';
 import { nodeTypes } from '../render/nodeTypes';
+import { exportPng } from '../export/toPng';
 
 function miniMapColor(n: Node): string {
   if (n.type === 'cluster') return (n.data as ClusterNodeData).cluster.color;
@@ -55,6 +57,11 @@ function GraphInner({ vm }: { vm: ViewModel }) {
       nodesDraggable={false}
       nodesConnectable={false}
     >
+      <Panel position="top-right">
+        <button className="av-btn av-btn-accent" onClick={() => void exportPng(vm.nodes)}>
+          Export PNG
+        </button>
+      </Panel>
       <Background variant={BackgroundVariant.Dots} color="#e2e1de" gap={22} size={1} />
       <MiniMap pannable zoomable nodeColor={miniMapColor} nodeStrokeWidth={2} maskColor="rgba(246,246,244,0.7)" />
       <Controls showInteractive={false} />

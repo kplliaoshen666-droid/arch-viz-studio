@@ -7,7 +7,7 @@ import { resolveCodegraph, syncOrIndex } from './scan/runCodegraph';
 import { locateDb, readDb } from './normalize/readDb';
 import { buildGraph } from './normalize/buildGraph';
 import { layoutGraph } from './layout/dagreLayout';
-import { writeGraphFile } from './emit/writeGraph';
+import { writeBundle } from './emit/writeGraph';
 
 const TOOL_VERSION = '0.1.0';
 const pExecFile = promisify(execFile);
@@ -71,10 +71,11 @@ async function main(): Promise<void> {
   });
   layoutGraph(graph.nodes, graph.edges, graph.meta.layout.rankdir);
 
-  const { outPath, merged } = writeGraphFile(graph, repoRoot, outDir);
+  const { outDir: written, merged } = writeBundle(graph, repoRoot, outDir);
   process.stdout.write(
-    `✓ ${outPath}\n  ${graph.nodes.length} nodes · ${graph.edges.length} edges · ` +
-      `${graph.clusters.length} clusters${merged ? ' · annotations merged' : ''}\n`,
+    `✓ bundle → ${written}\n  ${graph.nodes.length} nodes · ${graph.edges.length} edges · ` +
+      `${graph.clusters.length} clusters${merged ? ' · annotations merged' : ''}\n` +
+      '  files: graph.json · architecture.svg · ARCHITECTURE.md · viz/index.html\n',
   );
 }
 

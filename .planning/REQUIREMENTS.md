@@ -92,11 +92,11 @@
 | VIEW-04 | Phase 3 | Done |
 | VIEW-05 | Phase 3 | Done |
 | VIEW-06 | Phase 3 | Done |
-| EXPORT-01 | Phase 4 | Pending |
-| EXPORT-02 | Phase 4 | Pending |
-| EXPORT-03 | Phase 4 | Pending |
-| EXPORT-04 | Phase 4 | Pending |
-| EXPORT-05 | Phase 4 | Pending |
+| EXPORT-01 | Phase 4 | Done |
+| EXPORT-02 | Phase 4 | Done |
+| EXPORT-03 | Phase 4 | Done |
+| EXPORT-04 | Phase 4 | Done |
+| EXPORT-05 | Phase 4 | Done (browser-verify pending) |
 | REUSE-01 | Phase 5 | Pending |
 | REUSE-02 | Phase 5 | Pending |
 | SEC-01 | Phase 5 | Pending |

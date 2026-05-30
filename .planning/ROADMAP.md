@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Shared Contract** - Freeze the versioned, deterministic, agent-updatable `graph.json` schema in `shared/` (the spine everything reads)
 - [x] **Phase 2: CLI Extraction** - `arch-viz scan <repo>` runs CodeGraph, reads its SQLite DB, normalizes, and emits `graph.json` (highest-density security)
 - [x] **Phase 3: Viewer Core** - 4-pane Vite/React/React Flow app renders the graph with anti-hairball clustering/collapse/filter/focus designed in
-- [ ] **Phase 4: Export & Handoff Bundle** - Deterministic SVG, ARCHITECTURE.md, self-contained HTML viewer, and optional PNG (XSS-critical)
+- [x] **Phase 4: Export & Handoff Bundle** - Deterministic SVG, ARCHITECTURE.md, self-contained HTML viewer, and optional PNG (XSS-critical)
 - [ ] **Phase 5: Reusability + Dogfood** - Project-agnostic reuse, the license-allowlist ship gate, and ship-to-validate by visualizing self + one mature repo
 
 ## Phase Details
@@ -79,7 +79,7 @@ Plans:
 **UI hint**: yes
 
 Plans:
-- [ ] 04-01: TBD during plan-phase
+- [x] 04-01: deterministic toSvg + toMarkdown + self-contained toHtml (18KB, no fetch) + writeBundle (path-fenced) + in-app PNG (html-to-image pinned 1.11.11); adversarial-symbol escaping tests GREEN; all 4 files byte-identical on re-scan
 
 ### Phase 5: Reusability + Dogfood
 **Goal**: Prove the tool is project-agnostic and ship-to-validate it — resolve CodeGraph target-first then global, land output in each target's `docs/architecture/`, enforce the license-allowlist CI gate that fails the build on any non-permissive *shipped* dependency, and run the whole pipeline on the tool itself plus one mature repo so those committed bundles become the demo.
@@ -104,5 +104,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Shared Contract | 1/1 | Complete | 2026-05-31 |
 | 2. CLI Extraction | 1/1 | Complete | 2026-05-31 |
 | 3. Viewer Core | 1/1 | Complete | 2026-05-31 |
-| 4. Export & Handoff Bundle | 0/TBD | Not started | - |
+| 4. Export & Handoff Bundle | 1/1 | Complete | 2026-05-31 |
 | 5. Reusability + Dogfood | 0/TBD | Not started | - |
