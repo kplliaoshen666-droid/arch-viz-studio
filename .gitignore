@@ -26,3 +26,16 @@ app/e2e/screenshots/
 
 # Built global CLI bundle — regenerate with `npm run build:cli` (also matched by `dist/` above).
 cli/dist/
+
+# ── Local workspace — NOT part of the tool; keep it out of the published repo ──
+# Claude / GSD planning + project instructions (used locally, never shipped).
+.claude/
+.planning/
+CLAUDE.md
+# Other AI-assistant workspaces + editor / IDE / personal environment settings.
+.cursor/
+.codex/
+.agents/
+.vscode/
+.idea/
+*.code-workspace
